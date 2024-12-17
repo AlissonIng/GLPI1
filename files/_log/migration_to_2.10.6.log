@@ -1,0 +1,98 @@
+2024-10-04 12:39:47 [2@127.0.0.1localhost]
+0 seconds for "Upgrading glpi_plugin_order_configs"
+2024-10-04 12:39:47 [2@127.0.0.1localhost]
+0 seconds for "Cambio de la estructura de la base de datos - glpi_plugin_order_configs"
+2024-10-04 12:39:47 [2@127.0.0.1localhost]
+0 seconds for "Cambio de la estructura de la base de datos - glpi_plugin_order_configs"
+2024-10-04 12:39:47 [2@127.0.0.1localhost]
+0 seconds for "Add default order state workflow"
+2024-10-04 12:39:47 [2@127.0.0.1localhost]
+0 seconds for "Upgrading glpi_plugin_order_orders"
+2024-10-04 12:39:47 [2@127.0.0.1localhost]
+0 seconds for "Cambio de la estructura de la base de datos - glpi_plugin_order_orders"
+2024-10-04 12:39:47 [2@127.0.0.1localhost]
+0 seconds for "Upgrading glpi_plugin_order_orders_items"
+2024-10-04 12:39:47 [2@127.0.0.1localhost]
+0 seconds for "Cambio de la estructura de la base de datos - glpi_plugin_order_orders_items"
+2024-10-04 12:39:47 [2@127.0.0.1localhost]
+0 seconds for "Cambio de la estructura de la base de datos - glpi_plugin_order_orders_items"
+2024-10-04 12:39:47 [2@127.0.0.1localhost]
+0 seconds for "Cambio de la estructura de la base de datos - glpi_plugin_order_orders"
+2024-10-04 12:39:47 [2@127.0.0.1localhost]
+0 seconds for "Cambio de la estructura de la base de datos - glpi_plugin_order_orders_items"
+2024-10-04 12:39:47 [2@127.0.0.1localhost]
+0 seconds for "Tarea terminada."
+2024-10-04 12:39:47 [2@127.0.0.1localhost]
+0 seconds for "Upgrading glpi_plugin_order_references"
+2024-10-04 12:39:48 [2@127.0.0.1localhost]
+1 segundos for "Cambio de la estructura de la base de datos - glpi_plugin_order_references"
+2024-10-04 12:39:48 [2@127.0.0.1localhost]
+0 seconds for "Upgrading glpi_plugin_order_deliverystates"
+2024-10-04 12:39:48 [2@127.0.0.1localhost]
+0 seconds for "Cambio de la estructura de la base de datos - glpi_plugin_order_deliverystates"
+2024-10-04 12:39:48 [2@127.0.0.1localhost]
+0 seconds for "Migrate PluginOrderOrder notifications"
+2024-10-04 12:39:48 [2@127.0.0.1localhost]
+0 seconds for "Cambio de la estructura de la base de datos - glpi_plugin_order_bills"
+2024-10-04 12:39:48 [2@127.0.0.1localhost]
+0 seconds for "Upgrading glpi_plugin_order_orderpayments"
+2024-10-04 12:39:48 [2@127.0.0.1localhost]
+0 seconds for "Cambio de la estructura de la base de datos - glpi_plugin_order_orderpayments"
+2024-10-04 12:39:48 [2@127.0.0.1localhost]
+0 seconds for "Rename 'othertypes_id' to 'plugin_order_othertypes_id'"
+2024-10-04 12:39:48 [2@127.0.0.1localhost]
+0 seconds for "Upgrading glpi_plugin_order_references_suppliers"
+2024-10-04 12:39:48 [2@127.0.0.1localhost]
+0 seconds for "Cambio de la estructura de la base de datos - glpi_plugin_order_references_suppliers"
+2024-10-04 12:39:48 [2@127.0.0.1localhost]
+0 seconds for "Upgrading glpi_plugin_order_surveysuppliers"
+2024-10-04 12:39:48 [2@127.0.0.1localhost]
+0 seconds for "Cambio de la estructura de la base de datos - glpi_plugin_order_surveysuppliers"
+2024-10-04 12:39:48 [2@127.0.0.1localhost]
+0 seconds for "Migrating glpi_plugin_order_ordertaxes"
+2024-10-04 12:40:37 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_configs"
+2024-10-04 12:40:37 [2@127.0.0.1localhost]
+0 seconds for "Add default order state workflow"
+2024-10-04 12:40:37 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_billstates"
+2024-10-04 12:40:37 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_billtypes"
+2024-10-04 12:40:37 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_orderstates"
+2024-10-04 12:40:37 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_orders"
+2024-10-04 12:40:37 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_orders_items"
+2024-10-04 12:40:37 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_references"
+2024-10-04 12:40:37 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_deliverystates"
+2024-10-04 12:40:38 [2@127.0.0.1localhost]
+1 segundos for "Migrate PluginOrderOrder notifications"
+2024-10-04 12:40:38 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_orders_suppliers"
+2024-10-04 12:40:38 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_bills"
+2024-10-04 12:40:38 [2@127.0.0.1localhost]
+0 seconds for "Cambio de la estructura de la base de datos - glpi_plugin_order_orders_suppliers"
+2024-10-04 12:40:38 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_orderpayments"
+2024-10-04 12:40:38 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_ordertypes"
+2024-10-04 12:40:38 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_others"
+2024-10-04 12:40:38 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_othertypes"
+2024-10-04 12:40:38 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_preferences"
+2024-10-04 12:40:38 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_references_suppliers"
+2024-10-04 12:40:38 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_surveysuppliers"
+2024-10-04 12:40:38 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_ordertaxes"
+2024-10-04 12:40:38 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_documentcategories"
+2024-10-04 12:40:38 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_order_accountsections"

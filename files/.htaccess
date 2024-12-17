@@ -1,0 +1,6 @@
+<IfModule mod_authz_core.c>
+Order Deny,Allow
+</IfModule>
+<IfModule !mod_authz_core.c>
+deny from all
+</IfModule>

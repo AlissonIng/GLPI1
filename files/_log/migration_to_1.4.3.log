@@ -1,0 +1,8 @@
+2024-09-25 10:34:20 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_oauthimap_applications"
+2024-09-25 10:34:20 [2@127.0.0.1localhost]
+0 seconds for "Migracion de datos - glpi_displaypreferences"
+2024-09-25 10:34:20 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_oauthimap_authorizations"
+2024-11-01 12:48:08 [2@srvglpi.clinica.local]
+0 segundos for "Uninstalling glpi_plugin_oauthimap_applications"

@@ -1,0 +1,15 @@
+﻿"ID del caso";"Nombre del pedido";"Estado del pedido";"Area solicitada";"Descripción";"Documentos - Número de documentos";"Lugar de entrega";
+"12";"prueba agregar productos";"Esperando aprobación";"Sistemas";"";"2";"Clínica Nueva > Ascensores";
+"192";"Manguera de 1 metro";"";"Mantenimiento";"";"0";"Clínica Nueva > Piso 4 > Hospitalización 4to Oriente (Santa Catalina)";
+"192";"Teclado ";"Esperando aprobación";"Mantenimiento";"Se necesita teclado con estas características: ";"0";"Clínica Nueva > Piso 1 > Recepción Consulta Externa";
+"202";"Carpetas HC";"Cotización";"Estadística y Archivo";"";"0";"Clínica Nueva > Piso 5 > Archivo Clínico";
+"211";"Compra pc";"Cotización";"Biomédica";"Se requiere pc con estas características: ";"1";"Clínica Nueva > Piso 1 > Radiología CR (Rayos X)";
+"efefwefwefw";"wefwefwef";"Esperando aprobación";"Comunicaciones";"efwefweffw";"0";"Clínica Nueva > Piso 1 > Radiología Ecografía";
+"egrgerg";"ergrgergreg";"Entregado";"Comunicaciones";"rgregregegerg";"0";"Clínica Nueva > Fachadas y Áreas Perimetrales";
+"ererggergerg";"ergergregerg";"Esperando aprobación";"";"rgergergergreg";"0";"Clínica Nueva > Piso 1 > Sala de Espera Entrada Ambulancias";
+"erfergerg";"egergergerg";"Esperando aprobación";"Estadística y Archivo";"gergergergerg";"0";"Clínica Nueva > Fachadas y Áreas Perimetrales";
+"gergerger";"gergergerg";"Esperando aprobación";"Estadística y Archivo";"regegregergreg";"0";"Clínica Nueva > Fachadas y Áreas Perimetrales";
+"gwwegwg";"wegwgweg";"En proceso de entrega";"Sistemas";"bhererghergergerg";"0";"Clínica Nueva > Piso 1 > Farmacia y Farmacovigilancia (Coordinación)";
+"hhhhhhhh";"hhhhhhhhhhhhhhhhh";"Esperando aprobación";"Mantenimiento";"hhhhhhhhhhhhhhhhhhh";"0";"Clínica Nueva > Fachadas y Áreas Perimetrales";
+"rgergeg";"regergerge";"Esperando aprobación";"Biomédica";"rgergergrgeg";"0";"Clínica Nueva > Piso 1 > Radiología CR (Rayos X)";
+"w3gw3rg";"ergrgerger";"Esperando aprobación";"Sistemas";"rgergergergerg";"2";"Clínica Nueva > Piso 1 > Sala de Espera Entrada Ambulancias";

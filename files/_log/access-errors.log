@@ -1,0 +1,2701 @@
+2024-08-29 17:38:49 [2@prueba3]
+CSRF check failed for User ID: 2 at /front/config.form.php
+2024-08-30 13:40:43 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/user.form.php?id=8 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-08-30 15:04:07 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/profile_user.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Profile_User ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/profile_user.form.php:45 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-08-30 15:11:45 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/profile_user.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Profile_User ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/profile_user.form.php:45 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-08-30 15:24:47 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/entity.form.php?id=3 with insufficient rights. Additional information: No additional information given
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-03 19:30:08 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /ajax/comments.php
+2024-09-03 19:30:08 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /ajax/comments.php
+2024-09-03 19:30:09 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /ajax/comments.php
+2024-09-05 15:21:58 [@127.0.0.1localhost]
+CSRF check failed for User ID:  at /front/login.php
+2024-09-05 15:22:02 [@127.0.0.1localhost]
+CSRF check failed for User ID:  at /front/login.php
+2024-09-05 17:55:20 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /marketplace/fields/front/field.form.php
+2024-09-05 17:55:44 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /marketplace/fields/front/field.form.php
+2024-09-05 17:56:08 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-09-05 17:56:26 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-09-05 19:16:36 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /marketplace/fields/front/field.form.php
+2024-09-05 19:20:59 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-09-05 19:25:47 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/profile.form.php
+2024-09-06 13:40:48 [@127.0.0.1localhost]
+CSRF check failed for User ID:  at /front/login.php
+2024-09-06 13:41:20 [@127.0.0.1localhost]
+CSRF check failed for User ID:  at /front/login.php
+2024-09-06 13:41:36 [@127.0.0.1localhost]
+CSRF check failed for User ID:  at /front/login.php
+2024-09-06 15:10:51 [@127.0.0.1localhost]
+CSRF check failed for User ID:  at /front/login.php
+2024-09-06 15:14:07 [@127.0.0.1localhost]
+CSRF check failed for User ID:  at /front/login.php
+2024-09-09 12:03:11 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /marketplace/timelineticket/front/config.form.php
+2024-09-10 15:34:14 [@127.0.0.1localhost]
+CSRF check failed for User ID:  at /front/login.php
+2024-09-10 15:35:53 [@127.0.0.1localhost]
+CSRF check failed for User ID:  at /front/login.php
+2024-09-10 15:38:02 [@127.0.0.1localhost]
+CSRF check failed for User ID:  at /front/login.php
+2024-09-10 15:40:12 [@127.0.0.1localhost]
+CSRF check failed for User ID:  at /front/login.php
+2024-09-10 15:40:32 [@127.0.0.1localhost]
+CSRF check failed for User ID:  at /front/login.php
+2024-09-16 14:28:15 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/profile_user.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Profile_User ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/profile_user.form.php:45 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-16 14:30:14 [4@127.0.0.1localhost]
+User ID: 4 tried to access or perform an action on /front/rule.backup.php?action=import with insufficient rights. Additional information: User failed a global can* method check for right 1 (Read) on item Type: RuleCollection
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3104 displayRightError()
+		/var/www/glpi/front/rule.backup.php:52 checkGlobal()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-16 14:30:17 [4@127.0.0.1localhost]
+User ID: 4 tried to access or perform an action on /front/rule.backup.php?action=export with insufficient rights. Additional information: User failed a global can* method check for right 1 (Read) on item Type: RuleCollection
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3104 displayRightError()
+		/var/www/glpi/front/rule.backup.php:52 checkGlobal()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-16 14:37:12 [4@127.0.0.1localhost]
+User ID: 4 tried to access or perform an action on /marketplace/actualtime/front/running.php with insufficient rights. Additional information: User is missing the 1 (Read) right for user
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/marketplace/actualtime/front/running.php:39 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-16 20:28:37 [@127.0.0.1localhost]
+CSRF check failed for User ID:  at /front/tracking.injector.php
+2024-09-16 20:40:41 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /marketplace/formcreator/front/form.form.php?id=1 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/src/CommonGLPI.php:1206 displayRightError()
+		/var/www/glpi/marketplace/formcreator/front/form.form.php:142 display()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-16 20:40:43 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /marketplace/formcreator/front/form.form.php?id=1 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/src/CommonGLPI.php:1206 displayRightError()
+		/var/www/glpi/marketplace/formcreator/front/form.form.php:142 display()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-16 20:40:45 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /marketplace/formcreator/front/form.form.php?id=1 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/src/CommonGLPI.php:1206 displayRightError()
+		/var/www/glpi/marketplace/formcreator/front/form.form.php:142 display()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-16 21:42:54 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/profile_user.form.php
+2024-09-16 21:43:13 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/profile_user.form.php
+2024-09-16 21:43:27 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/profile_user.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Profile_User ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/profile_user.form.php:45 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-17 13:25:48 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/entity.form.php?id=0 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-17 13:26:02 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/entity.form.php?id=0 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-17 14:06:47 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/entity.form.php?id=1 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-17 16:12:02 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/transfer.form.php with insufficient rights. Additional information: Missing CREATE right. Cannot view the new item form.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6526 displayAccessDeniedPage()
+		/var/www/glpi/front/transfer.form.php:93 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-17 20:11:19 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /marketplace/fields/front/field.form.php
+2024-09-17 20:12:27 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /marketplace/fields/front/field.form.php
+2024-09-17 20:12:40 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /marketplace/fields/front/field.form.php
+2024-09-17 21:01:02 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-09-17 21:01:22 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-09-17 21:31:08 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /ajax/viewsubitem.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: PluginFieldsField ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:2790 check()
+		/var/www/glpi/marketplace/fields/inc/field.class.php:709 initForm()
+		/var/www/glpi/ajax/viewsubitem.php:58 showForm()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-17 21:31:14 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /ajax/viewsubitem.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: PluginFieldsField ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:2790 check()
+		/var/www/glpi/marketplace/fields/inc/field.class.php:709 initForm()
+		/var/www/glpi/ajax/viewsubitem.php:58 showForm()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-17 21:31:26 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /ajax/viewsubitem.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: PluginFieldsField ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:2790 check()
+		/var/www/glpi/marketplace/fields/inc/field.class.php:709 initForm()
+		/var/www/glpi/ajax/viewsubitem.php:58 showForm()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-17 21:32:04 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /ajax/viewsubitem.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: PluginFieldsField ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:2790 check()
+		/var/www/glpi/marketplace/fields/inc/field.class.php:709 initForm()
+		/var/www/glpi/ajax/viewsubitem.php:58 showForm()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-17 21:32:52 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /ajax/viewsubitem.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: PluginFieldsField ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:2790 check()
+		/var/www/glpi/marketplace/fields/inc/field.class.php:709 initForm()
+		/var/www/glpi/ajax/viewsubitem.php:58 showForm()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-17 21:33:37 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /ajax/viewsubitem.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: PluginFieldsField ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:2790 check()
+		/var/www/glpi/marketplace/fields/inc/field.class.php:709 initForm()
+		/var/www/glpi/ajax/viewsubitem.php:58 showForm()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-18 11:46:46 [@127.0.0.1localhost]
+User ID:  tried to access or perform an action on /marketplace/fields/front/container.form.php?id=15 with insufficient rights. Additional information: No additional information given
+	Stack Trace:
+		/var/www/glpi/src/CommonGLPI.php:1206 displayRightError()
+		/var/www/glpi/marketplace/fields/front/container.form.php:69 display()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-18 11:46:49 [@127.0.0.1localhost]
+User ID:  tried to access or perform an action on /marketplace/fields/front/container.form.php?id=15 with insufficient rights. Additional information: No additional information given
+	Stack Trace:
+		/var/www/glpi/src/CommonGLPI.php:1206 displayRightError()
+		/var/www/glpi/marketplace/fields/front/container.form.php:69 display()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-18 11:46:53 [@127.0.0.1localhost]
+User ID:  tried to access or perform an action on /marketplace/fields/front/container.form.php?id=15 with insufficient rights. Additional information: No additional information given
+	Stack Trace:
+		/var/www/glpi/src/CommonGLPI.php:1206 displayRightError()
+		/var/www/glpi/marketplace/fields/front/container.form.php:69 display()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-18 13:34:21 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /marketplace/actualtime/front/running.php with insufficient rights. Additional information: User is missing the 1 (Read) right for user
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/marketplace/actualtime/front/running.php:39 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-18 14:10:37 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/user.form.php?id=14 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-18 14:10:42 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/user.form.php?id=14 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-18 14:11:04 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/user.form.php?id=14&formoptions=data-track-changes%3Dtrue with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-18 14:13:46 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/user.form.php?id=8 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-18 14:13:49 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/user.form.php?id=8 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-18 14:13:53 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/user.form.php?id=8 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-18 14:14:05 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/user.form.php?id=8 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-18 14:17:52 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/user.form.php?id=8 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-18 14:57:24 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/entity.form.php?id=5 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-18 20:02:36 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/entity.form.php?id=3 with insufficient rights. Additional information: No additional information given
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-19 15:06:17 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-09-19 17:33:06 [8@127.0.0.1localhost]
+CSRF check failed for User ID: 8 at /front/tracking.injector.php
+2024-09-19 17:51:25 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/entity.form.php?id=0 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-19 19:28:27 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/entity.form.php?id=0 with insufficient rights. Additional information: No additional information given
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-19 19:30:33 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/entity.form.php?id=0 with insufficient rights. Additional information: No additional information given
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-19 19:30:46 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/entity.form.php?id=0 with insufficient rights. Additional information: No additional information given
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-19 19:30:52 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/ticket.form.php?id=33 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:265 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-19 19:30:54 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/ticket.form.php?id=33 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:265 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-19 19:30:59 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/ticket.form.php?id=33 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:265 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-19 19:31:01 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/ticket.form.php?id=33 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:265 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-19 19:41:04 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /marketplace/fields/front/field.form.php
+2024-09-19 19:41:52 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/ticket.form.php?id=30 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:265 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-19 19:41:54 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/ticket.form.php?id=30 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:265 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-19 19:41:56 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/ticket.form.php?id=30 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:265 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-19 19:41:58 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/ticket.form.php?id=30 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:265 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-19 20:01:07 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /marketplace/fields/front/field.form.php
+2024-09-19 20:02:19 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/entity.form.php?id=0 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-19 20:08:08 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/entity.form.php?id=0 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-19 20:08:39 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/entity.form.php?id=0 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-19 20:14:50 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/entity.form.php?id=0 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-19 21:16:23 [8@127.0.0.1localhost]
+CSRF check failed for User ID: 8 at /ajax/getDropdownValue.php
+2024-09-19 21:16:26 [8@127.0.0.1localhost]
+CSRF check failed for User ID: 8 at /ajax/getDropdownValue.php
+2024-09-19 21:31:41 [8@127.0.0.1localhost]
+CSRF check failed for User ID: 8 at /ajax/getDropdownValue.php
+2024-09-20 12:25:32 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/entity.form.php?id=0 with insufficient rights. Additional information: No additional information given
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-20 12:25:37 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/entity.form.php?id=0 with insufficient rights. Additional information: No additional information given
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-20 12:45:59 [10@127.0.0.1localhost]
+CSRF check failed for User ID: 10 at /front/user.form.php?id=10
+2024-09-20 12:46:01 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/user.form.php?id=10 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-20 12:46:03 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/user.form.php?id=10 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-20 12:46:48 [10@127.0.0.1localhost]
+CSRF check failed for User ID: 10 at /front/massiveaction.php
+2024-09-20 15:33:00 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/user.form.php?id=8 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-20 16:53:42 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-09-20 16:53:42 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-09-20 19:52:58 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /marketplace/fields/front/field.form.php
+2024-09-20 19:53:21 [2@127.0.0.1localhost]
+User ID: 2 tried to access a non-existent item /marketplace/fields/front/field.form.php?id=4. Additional information: 
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3045 displayNotFoundError()
+		/var/www/glpi/marketplace/fields/front/field.form.php:58 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-20 19:57:26 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/profile.php with insufficient rights. Additional information: User is missing the 1 (READ) right for profile
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/profile.php:38 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-20 19:57:28 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/user.php with insufficient rights. Additional information: User is missing the 1 (READ) right for user
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/user.php:38 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-20 19:57:29 [8@127.0.0.1localhost]
+CSRF check failed for User ID: 8 at /front/user.form.php
+2024-09-20 19:57:31 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/user.php with insufficient rights. Additional information: User is missing the 1 (READ) right for user
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/user.php:38 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-20 19:57:33 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/user.form.php with insufficient rights. Additional information: Missing CREATE right. Cannot view the new item form.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6526 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-20 21:14:07 [8@127.0.0.1localhost]
+CSRF check failed for User ID: 8 at /front/tracking.injector.php
+2024-09-20 21:24:55 [8@127.0.0.1localhost]
+CSRF check failed for User ID: 8 at /front/tracking.injector.php
+2024-09-20 21:45:24 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/user.form.php?id=10 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-23 13:08:55 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-09-23 16:21:25 [8@127.0.0.1localhost]
+CSRF check failed for User ID: 8 at /front/tracking.injector.php
+2024-09-23 16:55:39 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/user.form.php
+2024-09-24 12:32:35 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-09-24 12:32:35 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-09-24 12:32:35 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-09-24 12:32:35 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-09-24 12:32:35 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-09-24 12:32:35 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-09-24 12:42:45 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/tickettemplate.form.php?id=31 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/tickettemplate.form.php:39 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-24 12:42:49 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/tickettemplate.form.php?id=31 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/tickettemplate.form.php:39 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-24 12:44:32 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/tickettemplate.php?sort%5B0%5D=1&order%5B0%5D=ASC&criteria%5B0%5D%5Bfield%5D=view&criteria%5B0%5D%5Blink%5D=contains&criteria%5B0%5D%5Bvalue%5D= with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.php:47 displayRightError()
+		/var/www/glpi/front/tickettemplate.php:39 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-24 12:44:34 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/tickettemplate.form.php?id=31 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/tickettemplate.form.php:39 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-24 08:09:39 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/entity.form.php?id=0 with insufficient rights. Additional information: No additional information given
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-24 08:12:14 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/entity.form.php?id=0 with insufficient rights. Additional information: No additional information given
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-24 13:13:44 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/entity.form.php?id=0 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-24 13:32:02 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /ajax/getDropdownValue.php
+2024-09-24 15:00:41 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/user.form.php?id=8 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-24 16:42:13 [17@127.0.0.1localhost]
+User ID: 17 tried to access or perform an action on /front/profile.form.php with insufficient rights. Additional information: User is missing the 1 (Read) right for profile
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/profile.form.php:40 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-24 16:42:15 [17@127.0.0.1localhost]
+User ID: 17 tried to access or perform an action on /front/profile.form.php?id=22 with insufficient rights. Additional information: User is missing the 1 (Read) right for profile
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/profile.form.php:40 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-24 16:42:16 [17@127.0.0.1localhost]
+CSRF check failed for User ID: 17 at /front/user.form.php
+2024-09-24 16:42:20 [17@127.0.0.1localhost]
+User ID: 17 tried to access or perform an action on /front/profile.form.php?id=22 with insufficient rights. Additional information: User is missing the 1 (Read) right for profile
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/profile.form.php:40 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-24 16:42:22 [17@127.0.0.1localhost]
+CSRF check failed for User ID: 17 at /front/user.form.php
+2024-09-24 16:42:23 [17@127.0.0.1localhost]
+User ID: 17 tried to access or perform an action on /front/profile.form.php?id=22 with insufficient rights. Additional information: User is missing the 1 (Read) right for profile
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/profile.form.php:40 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-24 14:54:13 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/entity.form.php?id=0 with insufficient rights. Additional information: No additional information given
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-24 14:54:14 [10@127.0.0.1localhost]
+User ID: 10 tried to access or perform an action on /front/entity.form.php?id=0 with insufficient rights. Additional information: No additional information given
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/entity.form.php:58 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-25 11:19:38 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/ticket.form.php
+2024-09-25 11:20:03 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/ticket.form.php
+2024-09-25 11:21:12 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/ticket.form.php
+2024-09-26 15:24:14 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/user.form.php?id=5 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-26 15:24:17 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/user.form.php?id=5 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-26 15:24:24 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/user.form.php?id=5 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-27 15:56:56 [8@127.0.0.1localhost]
+User ID: 8 tried to access a non-existent item /marketplace/formcreator/front/formanswer.php?criteria%5B0%5D%5Bfield%5D=4&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=myself&sort%5B0%5D=6&order%5B0%5D=DESC. Additional information: 
+	Stack Trace:
+		/var/www/glpi/marketplace/formcreator/front/formanswer.php:36 displayNotFoundError()
+		/var/www/glpi/public/index.php:82 require()
+2024-09-30 07:31:52 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /marketplace/fields/front/container.form.php
+2024-09-30 07:38:02 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /marketplace/fields/front/container.form.php
+2024-09-30 08:17:00 [8@127.0.0.1localhost]
+CSRF check failed for User ID: 8 at /front/tracking.injector.php
+2024-09-30 08:57:23 [8@127.0.0.1localhost]
+CSRF check failed for User ID: 8 at /front/ticketsatisfaction.form.php
+2024-09-30 15:31:58 [10@127.0.0.1localhost]
+User ID: 10 tried to access a non-existent item /front/ticket.form.php?id=78. Additional information: The item could not be found in the database
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6425 displayNotFoundError()
+		/var/www/glpi/src/CommonDBTM.php:6536 displayItemNotFoundPage()
+		/var/www/glpi/front/ticket.form.php:290 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-04 16:42:51 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /marketplace/fields/front/field.form.php
+2024-10-04 16:47:55 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /marketplace/fields/front/field.form.php
+2024-10-07 10:23:13 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/mailcollector.form.php
+2024-10-07 10:23:13 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/mailcollector.form.php
+2024-10-08 09:26:35 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/itilfollowup.form.php
+2024-10-10 10:28:10 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/mailcollector.form.php
+2024-10-10 10:28:10 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/mailcollector.form.php
+2024-10-10 10:28:10 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/mailcollector.form.php
+2024-10-10 10:28:10 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/mailcollector.form.php
+2024-10-10 10:28:10 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/mailcollector.form.php
+2024-10-10 10:28:10 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/mailcollector.form.php
+2024-10-10 10:28:10 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/mailcollector.form.php
+2024-10-10 10:28:10 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/mailcollector.form.php
+2024-10-10 10:28:11 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/mailcollector.form.php
+2024-10-11 15:29:48 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-11 15:34:47 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-11 16:07:53 [8@127.0.0.1localhost]
+User ID: 8 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-11 16:28:58 [21@127.0.0.1localhost]
+CSRF check failed for User ID: 21 at /front/user.form.php
+2024-10-11 16:29:10 [21@127.0.0.1localhost]
+CSRF check failed for User ID: 21 at /front/user.form.php
+2024-10-11 16:29:21 [21@127.0.0.1localhost]
+CSRF check failed for User ID: 21 at /front/user.form.php
+2024-10-11 16:29:34 [21@127.0.0.1localhost]
+CSRF check failed for User ID: 21 at /front/user.form.php
+2024-10-11 16:30:45 [21@127.0.0.1localhost]
+CSRF check failed for User ID: 21 at /front/massiveaction.php
+2024-10-11 16:31:01 [21@127.0.0.1localhost]
+CSRF check failed for User ID: 21 at /front/massiveaction.php
+2024-10-11 16:31:11 [21@127.0.0.1localhost]
+CSRF check failed for User ID: 21 at /front/user.form.php
+2024-10-11 16:31:36 [21@127.0.0.1localhost]
+CSRF check failed for User ID: 21 at /front/massiveaction.php
+2024-10-11 16:31:49 [21@127.0.0.1localhost]
+CSRF check failed for User ID: 21 at /front/user.form.php
+2024-10-11 16:34:27 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-10-12 07:16:58 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/login.php
+2024-10-12 07:33:31 [22@127.0.0.1localhost]
+User ID: 22 tried to access or perform an action on /front/ticket.form.php?id=136 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-12 07:33:33 [22@127.0.0.1localhost]
+User ID: 22 tried to access or perform an action on /front/ticket.form.php?id=136 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-12 07:33:35 [22@127.0.0.1localhost]
+User ID: 22 tried to access or perform an action on /front/ticket.form.php?id=136 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-12 10:42:38 [37@127.0.0.1localhost]
+User ID: 37 tried to access or perform an action on /front/ticket.form.php?id=145 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-12 10:42:40 [37@127.0.0.1localhost]
+User ID: 37 tried to access or perform an action on /front/ticket.form.php?id=145 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-12 10:42:41 [37@127.0.0.1localhost]
+User ID: 37 tried to access or perform an action on /front/ticket.form.php?id=145 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-12 10:42:43 [37@127.0.0.1localhost]
+User ID: 37 tried to access or perform an action on /front/ticket.form.php?id=145 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-12 10:42:44 [37@127.0.0.1localhost]
+User ID: 37 tried to access or perform an action on /front/ticket.form.php?id=145 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-12 10:42:45 [37@127.0.0.1localhost]
+User ID: 37 tried to access or perform an action on /front/ticket.form.php?id=145 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-12 10:42:46 [37@127.0.0.1localhost]
+User ID: 37 tried to access or perform an action on /front/ticket.form.php?id=145 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-12 10:42:47 [37@127.0.0.1localhost]
+User ID: 37 tried to access or perform an action on /front/ticket.form.php?id=145 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-15 07:18:25 [37@127.0.0.1localhost]
+User ID: 37 tried to access a non-existent item /front/ticket.form.php?id=151. Additional information: The item could not be found in the database
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6425 displayNotFoundError()
+		/var/www/glpi/src/CommonDBTM.php:6536 displayItemNotFoundPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-15 08:03:05 [37@127.0.0.1localhost]
+User ID: 37 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-15 08:44:52 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (Create) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-15 08:51:38 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/document.form.php
+2024-10-15 08:52:28 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/document.form.php
+2024-10-15 08:53:03 [37@127.0.0.1localhost]
+User ID: 37 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-15 09:22:24 [21@127.0.0.1localhost]
+CSRF check failed for User ID: 21 at /ajax/massiveaction.php
+2024-10-15 11:05:35 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/ticket.form.php?id=167
+2024-10-15 14:25:48 [21@127.0.0.1localhost]
+CSRF check failed for User ID: 21 at /front/login.php
+2024-10-16 06:40:52 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/user.form.php
+2024-10-16 08:29:48 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/document_item.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Document_Item ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document_item.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-16 08:29:51 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/document_item.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Document_Item ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document_item.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-16 08:30:04 [30@127.0.0.1localhost]
+User ID: 30 tried to access or perform an action on /front/document_item.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Document_Item ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document_item.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-16 08:50:48 [37@127.0.0.1localhost]
+User ID: 37 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-16 08:53:45 [37@127.0.0.1localhost]
+User ID: 37 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-16 08:58:23 [37@127.0.0.1localhost]
+User ID: 37 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-16 09:02:35 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/document_item.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Document_Item ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document_item.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-16 09:07:00 [30@127.0.0.1localhost]
+User ID: 30 tried to access or perform an action on /front/document_item.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Document_Item ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document_item.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-16 09:07:35 [30@127.0.0.1localhost]
+User ID: 30 tried to access or perform an action on /front/document_item.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Document_Item ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document_item.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-16 09:07:53 [2@127.0.0.1localhost]
+User ID: 2 tried to access or perform an action on /front/document_item.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Document_Item ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document_item.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-16 09:11:16 [30@127.0.0.1localhost]
+User ID: 30 tried to access or perform an action on /front/document_item.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Document_Item ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document_item.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-16 11:02:13 [38@127.0.0.1localhost]
+User ID: 38 tried to access or perform an action on /front/sla.form.php?id=4 with insufficient rights. Additional information: User is missing the 1 (Read) right for slm
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/sla.form.php:40 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-16 11:34:50 [30@127.0.0.1localhost]
+User ID: 30 tried to access or perform an action on /front/user.php with insufficient rights. Additional information: User is missing the 1 (Read) right for user
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/user.php:38 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-16 11:34:53 [30@127.0.0.1localhost]
+CSRF check failed for User ID: 30 at /front/user.form.php
+2024-10-16 11:34:55 [30@127.0.0.1localhost]
+User ID: 30 tried to access or perform an action on /front/user.php with insufficient rights. Additional information: User is missing the 1 (Read) right for user
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/user.php:38 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-16 11:34:57 [30@127.0.0.1localhost]
+CSRF check failed for User ID: 30 at /front/user.form.php
+2024-10-16 11:35:00 [30@127.0.0.1localhost]
+User ID: 30 tried to access or perform an action on /front/user.php with insufficient rights. Additional information: User is missing the 1 (Read) right for user
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/user.php:38 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-16 11:37:43 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/user.form.php
+2024-10-16 14:49:29 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/login.php
+2024-10-17 13:31:25 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/itilfollowup.form.php
+2024-10-17 13:31:38 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/itilfollowup.form.php
+2024-10-17 13:31:54 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/itilfollowup.form.php
+2024-10-17 13:33:36 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/itilfollowup.form.php
+2024-10-17 13:35:30 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /front/itilfollowup.form.php
+2024-10-17 14:48:47 [25@127.0.0.1localhost]
+CSRF check failed for User ID: 25 at /front/user.form.php
+2024-10-17 15:30:54 [30@127.0.0.1localhost]
+User ID: 30 tried to access or perform an action on /front/ticketrecurrent.php?criteria%5B0%5D%5Bfield%5D=view&criteria%5B0%5D%5Blink%5D=contains&criteria%5B0%5D%5Bvalue%5D=&reset=reset with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.php:47 displayRightError()
+		/var/www/glpi/front/ticketrecurrent.php:39 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-17 15:30:54 [30@127.0.0.1localhost]
+User ID: 30 tried to access or perform an action on /front/ticketrecurrent.php?criteria%5B0%5D%5Bfield%5D=view&criteria%5B0%5D%5Blink%5D=contains&criteria%5B0%5D%5Bvalue%5D=&reset=reset with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.php:47 displayRightError()
+		/var/www/glpi/front/ticketrecurrent.php:39 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-18 07:11:17 [22@127.0.0.1localhost]
+CSRF check failed for User ID: 22 at /ajax/getDropdownValue.php
+2024-10-18 14:15:45 [38@127.0.0.1localhost]
+User ID: 38 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (Create) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-18 14:15:58 [38@127.0.0.1localhost]
+User ID: 38 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (Create) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-18 14:16:10 [38@127.0.0.1localhost]
+User ID: 38 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (Create) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-18 15:36:14 [38@127.0.0.1localhost]
+CSRF check failed for User ID: 38 at /ajax/common.tabs.php
+2024-10-18 15:36:49 [38@127.0.0.1localhost]
+CSRF check failed for User ID: 38 at /ajax/common.tabs.php
+2024-10-18 15:40:32 [38@127.0.0.1localhost]
+CSRF check failed for User ID: 38 at /ajax/common.tabs.php
+2024-10-18 15:53:41 [2@127.0.0.1localhost]
+CSRF check failed for User ID: 2 at /ajax/common.tabs.php
+2024-10-18 15:55:54 [30@127.0.0.1localhost]
+CSRF check failed for User ID: 30 at /ajax/common.tabs.php
+2024-10-18 16:03:30 [38@127.0.0.1localhost]
+User ID: 38 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (Create) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-18 16:03:41 [38@127.0.0.1localhost]
+User ID: 38 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (Create) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-18 16:04:37 [38@127.0.0.1localhost]
+User ID: 38 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (Create) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-18 16:05:38 [38@127.0.0.1localhost]
+User ID: 38 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (Create) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-18 16:06:23 [38@127.0.0.1localhost]
+User ID: 38 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (Create) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-18 16:07:54 [38@127.0.0.1localhost]
+User ID: 38 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (Create) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-18 16:11:14 [38@127.0.0.1localhost]
+User ID: 38 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (Create) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-18 16:13:02 [38@127.0.0.1localhost]
+User ID: 38 tried to access or perform an action on /front/document.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (Create) on item Type: Document ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-22 07:14:08 [38@127.0.0.1localhost]
+CSRF check failed for User ID: 38 at /front/login.php
+2024-10-22 07:17:45 [@127.0.0.1localhost]
+CSRF check failed for User ID:  at /front/login.php
+2024-10-22 09:01:07 [38@127.0.0.1localhost]
+User ID: 38 tried to access or perform an action on /front/user.form.php with insufficient rights. Additional information: Missing CREATE right. Cannot view the new item form.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6526 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:253 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-22 09:01:13 [38@127.0.0.1localhost]
+User ID: 38 tried to access or perform an action on /front/user.form.php with insufficient rights. Additional information: Missing CREATE right. Cannot view the new item form.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6526 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:253 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-22 09:01:19 [38@127.0.0.1localhost]
+User ID: 38 tried to access or perform an action on /front/user.form.php with insufficient rights. Additional information: Missing CREATE right. Cannot view the new item form.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6526 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:253 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-23 08:41:39 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-10-23 08:44:48 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-10-23 11:29:26 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-10-24 11:32:11 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/user.form.php
+2024-10-24 12:54:57 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /front/notificationmailingsetting.form.php
+2024-10-24 12:54:57 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /front/notificationmailingsetting.form.php
+2024-10-24 12:54:57 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /front/notificationmailingsetting.form.php
+2024-10-24 12:54:57 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /front/notificationmailingsetting.form.php
+2024-10-24 13:00:23 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /front/notificationmailingsetting.form.php
+2024-10-24 14:22:22 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/notificationmailingsetting.form.php
+2024-10-24 14:28:56 [30@srvglpi.clinica.local]
+User ID: 30 tried to access or perform an action on /front/problem.php?criteria%5B0%5D%5Bfield%5D=view&criteria%5B0%5D%5Blink%5D=contains&criteria%5B0%5D%5Bvalue%5D=&reset=reset with insufficient rights. Additional information: User is missing all of the following rights: 1024(See all), 1(See (author)) for problem
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1148 displayRightError()
+		/var/www/glpi/front/problem.php:38 checkRightsOr()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-24 15:22:47 [30@srvglpi.clinica.local]
+User ID: 30 tried to access or perform an action on /front/setup.notification.php with insufficient rights. Additional information: User is missing all of the following rights: 1(Read) for module notification, 2(Update) for module config
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1191 displayRightError()
+		/var/www/glpi/front/setup.notification.php:42 checkSeveralRightsOr()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-24 15:22:49 [30@srvglpi.clinica.local]
+CSRF check failed for User ID: 30 at /front/user.form.php
+2024-10-24 15:22:52 [30@srvglpi.clinica.local]
+User ID: 30 tried to access or perform an action on /front/setup.notification.php with insufficient rights. Additional information: User is missing all of the following rights: 1(Read) for module notification, 2(Update) for module config
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1191 displayRightError()
+		/var/www/glpi/front/setup.notification.php:42 checkSeveralRightsOr()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-24 15:22:54 [30@srvglpi.clinica.local]
+CSRF check failed for User ID: 30 at /front/user.form.php
+2024-10-24 15:22:56 [30@srvglpi.clinica.local]
+User ID: 30 tried to access or perform an action on /front/setup.notification.php with insufficient rights. Additional information: User is missing all of the following rights: 1(Read) for module notification, 2(Update) for module config
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1191 displayRightError()
+		/var/www/glpi/front/setup.notification.php:42 checkSeveralRightsOr()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-25 07:04:38 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-10-25 11:18:35 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-10-25 13:06:34 [2@srvglpi.clinica.local]
+User ID: 2 tried to access or perform an action on /front/document_item.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Document_Item ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/document_item.form.php:49 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-25 14:33:09 [30@srvglpi.clinica.local]
+User ID: 30 tried to access or perform an action on /front/notepad.form.php with insufficient rights. Additional information: User failed a can* method check for right 2 (UPDATE) on item Type: Notepad ID: 20
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/notepad.form.php:71 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-25 15:03:36 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /front/massiveaction.php
+2024-10-25 15:03:47 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /front/massiveaction.php
+2024-10-25 16:09:46 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/mailcollector.form.php
+2024-10-25 17:00:01 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-25 17:00:01 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-25 17:00:01 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-25 17:00:01 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-25 17:00:01 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-25 17:00:01 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-25 17:00:01 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-25 17:00:01 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-28 06:49:43 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-28 08:36:55 [2@srvglpi.clinica.local]
+User ID: 2 tried to access or perform an action on /front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (Add followup (requester)) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/itilfollowup.form.php:56 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-28 08:37:04 [2@srvglpi.clinica.local]
+User ID: 2 tried to access or perform an action on /front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (Add followup (requester)) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/itilfollowup.form.php:56 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-28 12:12:59 [2@srvglpi.clinica.local]
+User ID: 2 tried to access or perform an action on /front/user.php?is_deleted=0&as_map=0&browse=0&criteria[0][link]=AND&criteria[0][field]=20&criteria[0][searchtype]=equals&criteria[0][value]=4&itemtype=User&start=0&_glpi_csrf_token=ad72e926a2cfecec7163ba85ae516922a8d35bab657c0c793f380e4911a5561a&sort[]=1&order[]=ASC with insufficient rights. Additional information: User is missing the 1 (READ) right for user
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/user.php:38 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-28 12:13:01 [2@srvglpi.clinica.local]
+User ID: 2 tried to access or perform an action on /front/user.php?is_deleted=0&as_map=0&browse=0&criteria[0][link]=AND&criteria[0][field]=20&criteria[0][searchtype]=equals&criteria[0][value]=4&itemtype=User&start=0&_glpi_csrf_token=ad72e926a2cfecec7163ba85ae516922a8d35bab657c0c793f380e4911a5561a&sort[]=1&order[]=ASC with insufficient rights. Additional information: User is missing the 1 (READ) right for user
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/user.php:38 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-29 10:17:39 [171@srvglpi.clinica.local]
+User ID: 171 tried to access or perform an action on /front/computer.php?criteria%5B0%5D%5Bfield%5D=view&criteria%5B0%5D%5Blink%5D=contains&criteria%5B0%5D%5Bvalue%5D=&reset=reset with insufficient rights. Additional information: User is missing the 1 (Read) right for computer
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/computer.php:38 checkRight()
+2024-10-29 10:55:04 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/ticketsatisfaction.form.php with insufficient rights. Additional information: User failed a can* method check for right 2 (UPDATE) on item Type: TicketSatisfaction ID: 232
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/ticketsatisfaction.form.php:45 check()
+2024-10-29 11:28:23 [22@srvglpi.clinica.local]
+User ID: 22 tried to access or perform an action on /front/user.form.php?id=22 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+2024-10-29 11:28:25 [22@srvglpi.clinica.local]
+User ID: 22 tried to access or perform an action on /front/user.php?is_deleted=0&as_map=0&browse=0&criteria%5B0%5D%5Blink%5D=AND&criteria%5B0%5D%5Bfield%5D=view&criteria%5B0%5D%5Bsearchtype%5D=contains&criteria%5B0%5D%5Bvalue%5D=vcha&itemtype=User&start=0&_glpi_csrf_token=27b9fed3e97c7e4fb430e49678d9214fb6abe43f9c7939079ab3b9aa113f7d89&sort%5B0%5D=1&order%5B0%5D=ASC with insufficient rights. Additional information: User is missing the 1 (Read) right for user
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/user.php:38 checkRight()
+2024-10-29 11:28:27 [22@srvglpi.clinica.local]
+CSRF check failed for User ID: 22 at /front/user.form.php
+2024-10-29 11:28:28 [22@srvglpi.clinica.local]
+User ID: 22 tried to access or perform an action on /front/user.php?is_deleted=0&as_map=0&browse=0&criteria%5B0%5D%5Blink%5D=AND&criteria%5B0%5D%5Bfield%5D=view&criteria%5B0%5D%5Bsearchtype%5D=contains&criteria%5B0%5D%5Bvalue%5D=vcha&itemtype=User&start=0&_glpi_csrf_token=27b9fed3e97c7e4fb430e49678d9214fb6abe43f9c7939079ab3b9aa113f7d89&sort%5B0%5D=1&order%5B0%5D=ASC with insufficient rights. Additional information: User is missing the 1 (Read) right for user
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/user.php:38 checkRight()
+2024-10-29 11:28:30 [22@srvglpi.clinica.local]
+User ID: 22 tried to access or perform an action on /front/user.form.php with insufficient rights. Additional information: Missing CREATE right. Cannot view the new item form.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6526 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+2024-10-29 11:29:02 [22@srvglpi.clinica.local]
+User ID: 22 tried to access or perform an action on /front/user.php?is_deleted=0&as_map=0&browse=0&criteria%5B0%5D%5Blink%5D=AND&criteria%5B0%5D%5Bfield%5D=view&criteria%5B0%5D%5Bsearchtype%5D=contains&criteria%5B0%5D%5Bvalue%5D=vcha&itemtype=User&start=0&_glpi_csrf_token=27b9fed3e97c7e4fb430e49678d9214fb6abe43f9c7939079ab3b9aa113f7d89&sort%5B0%5D=1&order%5B0%5D=ASC with insufficient rights. Additional information: User is missing the 1 (Read) right for user
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/user.php:38 checkRight()
+2024-10-29 11:29:04 [22@srvglpi.clinica.local]
+User ID: 22 tried to access or perform an action on /front/user.form.php with insufficient rights. Additional information: Missing CREATE right. Cannot view the new item form.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6526 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+2024-10-29 11:34:34 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/login.php
+2024-10-29 11:56:30 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-29 11:56:30 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-29 11:56:30 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-29 11:56:30 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-29 11:56:30 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-29 11:56:31 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-29 11:56:31 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-29 16:08:34 [154@srvglpi.clinica.local]
+User ID: 154 tried to access or perform an action on /front/user.php with insufficient rights. Additional information: User is missing the 1 (Read) right for user
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/user.php:38 checkRight()
+2024-10-30 06:51:23 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-10-30 08:11:21 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-30 08:11:25 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-30 08:28:14 [442@srvglpi.clinica.local]
+CSRF check failed for User ID: 442 at /front/login.php
+2024-10-30 08:29:02 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-30 08:29:04 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-30 08:35:46 [154@srvglpi.clinica.local]
+User ID: 154 tried to access or perform an action on /front/user.form.php?id=26 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-30 09:51:15 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-10-30 10:02:51 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-10-30 11:06:40 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-30 11:06:40 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-10-30 11:18:33 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-10-30 11:37:49 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-10-30 14:44:02 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/user.form.php?id=310 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-30 14:44:38 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/user.form.php?id=154 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-30 14:45:15 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/user.form.php?id=591 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-30 14:50:34 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/user.form.php?id=22 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-30 14:51:16 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/user.form.php?id=37 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-30 15:38:52 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-30 15:38:53 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-30 15:38:55 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-30 15:38:55 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-30 15:39:36 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-30 15:39:51 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-30 15:40:16 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-30 15:41:42 [143@srvglpi.clinica.local]
+User ID: 143 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-31 06:55:00 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/user.form.php?id=294 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-31 07:27:20 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/user.form.php with insufficient rights. Additional information: Missing CREATE right. Cannot view the new item form.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6526 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-31 07:27:22 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/user.form.php with insufficient rights. Additional information: Missing CREATE right. Cannot view the new item form.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6526 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-31 09:55:56 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/problem.php?criteria%5B0%5D%5Bfield%5D=view&criteria%5B0%5D%5Blink%5D=contains&criteria%5B0%5D%5Bvalue%5D=&reset=reset with insufficient rights. Additional information: User is missing all of the following rights: 1024(See all), 1(See (author)) for problem
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1148 displayRightError()
+		/var/www/glpi/front/problem.php:38 checkRightsOr()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-31 10:10:12 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-31 10:10:15 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-31 10:15:57 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-10-31 10:52:49 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/user.form.php?id=310 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-31 11:15:38 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-31 11:15:41 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-31 11:15:42 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-31 11:15:42 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-31 11:15:43 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-31 11:15:43 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-31 11:15:45 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/central.php:87 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-10-31 15:37:46 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-10-31 16:46:14 [294@srvglpi.clinica.local]
+CSRF check failed for User ID: 294 at /ajax/getDropdownValue.php
+2024-11-01 07:07:49 [154@srvglpi.clinica.local]
+User ID: 154 tried to access or perform an action on /front/computer.php?criteria%5B0%5D%5Bfield%5D=view&criteria%5B0%5D%5Blink%5D=contains&criteria%5B0%5D%5Bvalue%5D=&reset=reset with insufficient rights. Additional information: User is missing the 1 (Read) right for computer
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/computer.php:38 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 12:09:36 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-01 12:09:51 [294@srvglpi.clinica.local]
+User ID: 294 tried to access a non-existent item /front/ticket.form.php?id=266&. Additional information: The item could not be found in the database
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6425 displayNotFoundError()
+		/var/www/glpi/src/CommonDBTM.php:6536 displayItemNotFoundPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 12:16:26 [294@srvglpi.clinica.local]
+User ID: 294 tried to access or perform an action on /front/itilcategory.form.php?id=170 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/itilcategory.form.php:39 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 12:16:29 [294@srvglpi.clinica.local]
+User ID: 294 tried to access or perform an action on /front/itilcategory.form.php?id=170 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/itilcategory.form.php:39 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 12:16:31 [294@srvglpi.clinica.local]
+User ID: 294 tried to access or perform an action on /front/itilcategory.form.php?id=170 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/itilcategory.form.php:39 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 14:42:46 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-01 14:55:49 [591@srvglpi.clinica.local]
+User ID: 591 tried to access or perform an action on /front/ticket.form.php?id=2 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 14:55:54 [591@srvglpi.clinica.local]
+User ID: 591 tried to access or perform an action on /front/ticket.form.php?id=2 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 14:55:56 [591@srvglpi.clinica.local]
+User ID: 591 tried to access or perform an action on /front/ticket.form.php?id=2 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 14:55:58 [591@srvglpi.clinica.local]
+User ID: 591 tried to access or perform an action on /front/ticket.form.php?id=2 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 14:55:59 [591@srvglpi.clinica.local]
+User ID: 591 tried to access or perform an action on /front/ticket.form.php?id=2 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 15:04:48 [22@srvglpi.clinica.local]
+User ID: 22 tried to access or perform an action on /front/user.form.php?id=203 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 15:32:47 [591@srvglpi.clinica.local]
+User ID: 591 tried to access or perform an action on /front/ticket.form.php?id=8 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 15:32:50 [591@srvglpi.clinica.local]
+User ID: 591 tried to access or perform an action on /front/ticket.form.php?id=8 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 15:32:50 [591@srvglpi.clinica.local]
+User ID: 591 tried to access or perform an action on /front/ticket.form.php?id=8 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 15:32:53 [591@srvglpi.clinica.local]
+User ID: 591 tried to access or perform an action on /front/ticket.form.php?id=8 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 15:32:55 [591@srvglpi.clinica.local]
+User ID: 591 tried to access or perform an action on /front/ticket.form.php?id=8 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 15:32:57 [591@srvglpi.clinica.local]
+User ID: 591 tried to access or perform an action on /front/ticket.form.php?id=8 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 15:33:00 [591@srvglpi.clinica.local]
+User ID: 591 tried to access or perform an action on /front/ticket.form.php?id=8 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 15:46:58 [591@srvglpi.clinica.local]
+User ID: 591 tried to access or perform an action on /front/ticket.form.php?id=8 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-01 15:57:57 [331@srvglpi.clinica.local]
+CSRF check failed for User ID: 331 at /front/login.php
+2024-11-05 08:56:48 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-05 09:31:18 [37@srvglpi.clinica.local]
+User ID: 37 tried to access or perform an action on /front/ticket.form.php?id=59&forcetab=Ticket$3 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-05 09:40:06 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/ticket.form.php?id=5&forcetab=Ticket$1 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-05 09:40:08 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/ticket.form.php?id=5&forcetab=Ticket$1 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-05 09:40:10 [442@srvglpi.clinica.local]
+User ID: 442 tried to access or perform an action on /front/ticket.form.php?id=5 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-05 11:12:01 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/user.form.php
+2024-11-05 12:43:04 [331@srvglpi.clinica.local]
+User ID: 331 tried to access or perform an action on /front/user.form.php?id=331 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-05 12:49:58 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-11-05 14:01:25 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-05 15:32:08 [41@srvglpi.clinica.local]
+User ID: 41 tried to access or perform an action on /front/ticket.form.php?id=13&forcetab=Ticket$1 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-05 15:32:32 [41@srvglpi.clinica.local]
+User ID: 41 tried to access or perform an action on /front/ticketsatisfaction.form.php with insufficient rights. Additional information: User failed a can* method check for right 2 (UPDATE) on item Type: TicketSatisfaction ID: 13
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/ticketsatisfaction.form.php:45 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-05 15:40:28 [399@srvglpi.clinica.local]
+CSRF check failed for User ID: 399 at /ajax/getDropdownValue.php
+2024-11-05 15:40:33 [399@srvglpi.clinica.local]
+CSRF check failed for User ID: 399 at /ajax/getDropdownValue.php
+2024-11-05 15:40:34 [399@srvglpi.clinica.local]
+CSRF check failed for User ID: 399 at /ajax/getDropdownValue.php
+2024-11-05 15:40:40 [399@srvglpi.clinica.local]
+CSRF check failed for User ID: 399 at /ajax/getDropdownValue.php
+2024-11-05 15:40:45 [399@srvglpi.clinica.local]
+CSRF check failed for User ID: 399 at /ajax/getDropdownValue.php
+2024-11-06 08:08:44 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-06 08:08:47 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-06 09:27:36 [154@srvglpi.clinica.local]
+User ID: 154 tried to access or perform an action on /front/user.form.php?id=502 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-06 09:28:12 [154@srvglpi.clinica.local]
+User ID: 154 tried to access or perform an action on /front/user.form.php?id=44 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-06 09:28:37 [154@srvglpi.clinica.local]
+User ID: 154 tried to access or perform an action on /front/user.form.php?id=502 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-06 09:30:56 [154@srvglpi.clinica.local]
+User ID: 154 tried to access or perform an action on /front/user.form.php?id=44 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-06 09:37:53 [154@srvglpi.clinica.local]
+User ID: 154 tried to access or perform an action on /front/user.form.php?id=502 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-06 10:09:34 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-06 12:16:14 [294@srvglpi.clinica.local]
+CSRF check failed for User ID: 294 at /ajax/getDropdownValue.php
+2024-11-06 12:16:16 [294@srvglpi.clinica.local]
+CSRF check failed for User ID: 294 at /ajax/getDropdownValue.php
+2024-11-06 12:17:10 [294@srvglpi.clinica.local]
+CSRF check failed for User ID: 294 at /ajax/getDropdownValue.php
+2024-11-06 12:17:12 [294@srvglpi.clinica.local]
+CSRF check failed for User ID: 294 at /ajax/getDropdownValue.php
+2024-11-06 12:17:39 [294@srvglpi.clinica.local]
+CSRF check failed for User ID: 294 at /ajax/getDropdownValue.php
+2024-11-06 13:03:27 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-06 13:03:34 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-06 16:31:31 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=86 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-06 16:31:36 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=86 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-06 16:33:29 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=127 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-06 16:33:31 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=127 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-06 16:33:31 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=127 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-06 16:33:31 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=127 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-06 16:33:33 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=127 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-07 10:57:35 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/user.form.php?id=310 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-07 11:02:34 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/user.form.php?id=432 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-07 11:08:45 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/user.form.php?id=592 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-07 11:10:04 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/user.form.php?id=310 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-07 11:10:44 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/user.form.php?id=432 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-07 11:11:39 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/user.form.php?id=592 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-07 11:14:49 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/user.form.php?id=311 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-07 11:15:46 [52@srvglpi.clinica.local]
+User ID: 52 tried to access or perform an action on /front/user.form.php?id=22 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-07 13:20:12 [171@srvglpi.clinica.local]
+CSRF check failed for User ID: 171 at /ajax/search.php
+2024-11-07 14:57:47 [294@srvglpi.clinica.local]
+CSRF check failed for User ID: 294 at /ajax/getDropdownValue.php
+2024-11-07 14:57:49 [294@srvglpi.clinica.local]
+CSRF check failed for User ID: 294 at /ajax/getDropdownValue.php
+2024-11-07 16:31:10 [171@srvglpi.clinica.local]
+User ID: 171 tried to access or perform an action on /front/computer.php?criteria%5B0%5D%5Bfield%5D=view&criteria%5B0%5D%5Blink%5D=contains&criteria%5B0%5D%5Bvalue%5D=&reset=reset with insufficient rights. Additional information: User is missing the 1 (Read) right for computer
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/computer.php:38 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-07 18:56:04 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /ajax/getDropdownValue.php
+2024-11-07 18:56:08 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /ajax/getDropdownValue.php
+2024-11-07 19:05:34 [399@srvglpi.clinica.local]
+CSRF check failed for User ID: 399 at /ajax/search.php
+2024-11-08 07:05:08 [171@srvglpi.clinica.local]
+CSRF check failed for User ID: 171 at /ajax/search.php
+2024-11-08 07:32:06 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=45 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-08 07:32:09 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=45 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-08 07:32:10 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=45 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-08 07:41:14 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (Add followup (requester)) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/itilfollowup.form.php:57 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-08 07:41:20 [592@srvglpi.clinica.local]
+CSRF check failed for User ID: 592 at /front/itilfollowup.form.php
+2024-11-08 12:47:37 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /ajax/dashboard.php
+2024-11-08 12:47:38 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /ajax/dashboard.php
+2024-11-08 13:54:12 [171@srvglpi.clinica.local]
+User ID: 171 tried to access or perform an action on /front/computer.php?criteria%5B0%5D%5Bfield%5D=23&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=0&reset=reset with insufficient rights. Additional information: User is missing the 1 (Read) right for computer
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/computer.php:38 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-08 16:01:52 [592@srvglpi.clinica.local]
+CSRF check failed for User ID: 592 at /ajax/search.php
+2024-11-08 16:16:01 [154@srvglpi.clinica.local]
+User ID: 154 tried to access or perform an action on /front/user.form.php?id=331 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-08 16:20:10 [154@srvglpi.clinica.local]
+User ID: 154 tried to access or perform an action on /front/user.form.php?id=22 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-08 16:44:29 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=134 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-08 16:44:31 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=134 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-08 16:44:32 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=134 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-08 16:44:38 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=134 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-08 16:52:27 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=134 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-09 07:14:19 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /ajax/search.php
+2024-11-09 15:10:53 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-10 04:47:24 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /front/itilfollowup.form.php
+2024-11-10 15:22:10 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /ajax/getDropdownValue.php
+2024-11-10 15:22:13 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /ajax/getDropdownValue.php
+2024-11-12 09:00:45 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /ajax/dashboard.php
+2024-11-12 10:05:57 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-12 10:06:03 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-12 10:32:22 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-12 10:32:28 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-12 13:29:43 [88@srvglpi.clinica.local]
+User ID: 88 tried to access or perform an action on /front/user.form.php?id=88 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-12 13:36:31 [88@srvglpi.clinica.local]
+User ID: 88 tried to access or perform an action on /front/ticketsatisfaction.form.php with insufficient rights. Additional information: User failed a can* method check for right 2 (UPDATE) on item Type: TicketSatisfaction ID: 73
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/ticketsatisfaction.form.php:45 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-12 14:37:51 [434@srvglpi.clinica.local]
+User ID: 434 tried to access or perform an action on /front/ticket.form.php?id=291&forcetab=Ticket$1 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-12 14:38:01 [434@srvglpi.clinica.local]
+User ID: 434 tried to access or perform an action on /front/ticket.form.php?id=291&forcetab=Ticket$1 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-12 15:30:05 [294@srvglpi.clinica.local]
+User ID: 294 tried to access or perform an action on /front/ticketsatisfaction.form.php with insufficient rights. Additional information: User failed a can* method check for right 2 (Update) on item Type: TicketSatisfaction ID: 232
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/ticketsatisfaction.form.php:45 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-12 16:40:25 [44@srvglpi.clinica.local]
+User ID: 44 tried to access or perform an action on /front/ticket.form.php?id=112 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-12 16:40:28 [44@srvglpi.clinica.local]
+User ID: 44 tried to access or perform an action on /front/ticket.form.php?id=2 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-13 07:02:09 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /ajax/getDropdownValue.php
+2024-11-13 09:01:49 [88@srvglpi.clinica.local]
+User ID: 88 tried to access or perform an action on /front/ticketsatisfaction.form.php with insufficient rights. Additional information: User failed a can* method check for right 2 (UPDATE) on item Type: TicketSatisfaction ID: 244
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/ticketsatisfaction.form.php:45 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-13 09:14:10 [434@srvglpi.clinica.local]
+User ID: 434 tried to access or perform an action on /front/ticket.form.php?id=154&forcetab=Ticket$1 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-13 09:18:17 [310@srvglpi.clinica.local]
+User ID: 310 tried to access or perform an action on /front/ticket.form.php?id=175 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-13 11:03:55 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=2 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-13 11:58:33 [434@srvglpi.clinica.local]
+User ID: 434 tried to access or perform an action on /front/ticket.form.php?id=154&forcetab=Ticket$1 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-13 11:59:44 [434@srvglpi.clinica.local]
+User ID: 434 tried to access or perform an action on /front/ticket.form.php?id=154&forcetab=Ticket$1 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-13 11:59:51 [434@srvglpi.clinica.local]
+User ID: 434 tried to access or perform an action on /front/ticket.form.php?id=154&forcetab=Ticket$1 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-13 12:01:14 [434@srvglpi.clinica.local]
+User ID: 434 tried to access or perform an action on /front/ticket.form.php?id=154&forcetab=Ticket$1 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-13 14:29:00 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-13 15:29:10 [592@srvglpi.clinica.local]
+CSRF check failed for User ID: 592 at /ajax/search.php
+2024-11-13 19:56:09 [399@srvglpi.clinica.local]
+CSRF check failed for User ID: 399 at /front/itilfollowup.form.php
+2024-11-13 19:56:15 [399@srvglpi.clinica.local]
+CSRF check failed for User ID: 399 at /front/itilfollowup.form.php
+2024-11-14 06:41:07 [294@srvglpi.clinica.local]
+CSRF check failed for User ID: 294 at /front/user.form.php
+2024-11-14 07:02:59 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /ajax/search.php
+2024-11-14 10:57:48 [294@srvglpi.clinica.local]
+CSRF check failed for User ID: 294 at /ajax/search.php
+2024-11-15 07:12:34 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /ajax/search.php
+2024-11-15 12:28:50 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=317 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-15 12:35:30 [359@srvglpi.clinica.local]
+User ID: 359 tried to access or perform an action on /front/entity.php?criteria%5B0%5D%5Bfield%5D=view&criteria%5B0%5D%5Blink%5D=contains&criteria%5B0%5D%5Bvalue%5D=&reset=reset with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.php:47 displayRightError()
+		/var/www/glpi/front/entity.php:39 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-15 14:25:54 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-11-15 14:25:54 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-11-15 14:25:54 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /front/crontask.form.php
+2024-11-15 15:18:58 [22@srvglpi.clinica.local]
+CSRF check failed for User ID: 22 at /front/itilfollowup.form.php
+2024-11-18 07:05:12 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /ajax/search.php
+2024-11-18 07:17:55 [154@srvglpi.clinica.local]
+User ID: 154 tried to access or perform an action on /front/user.form.php?id=311 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 11:28:37 [311@srvglpi.clinica.local]
+User ID: 311 tried to access or perform an action on /front/location.form.php?id=186 with insufficient rights. Additional information: No se proporciona información adicional
+	Stack Trace:
+		/var/www/glpi/front/dropdown.common.form.php:49 displayRightError()
+		/var/www/glpi/front/location.form.php:39 include()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 12:39:56 [311@srvglpi.clinica.local]
+User ID: 311 tried to access or perform an action on /front/ticket.form.php?id=656 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 12:47:21 [311@srvglpi.clinica.local]
+User ID: 311 tried to access or perform an action on /front/ticket.form.php?id=656 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 12:47:34 [311@srvglpi.clinica.local]
+User ID: 311 tried to access or perform an action on /front/ticket.form.php?id=656 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 12:47:36 [311@srvglpi.clinica.local]
+User ID: 311 tried to access or perform an action on /front/ticket.form.php?id=656 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 13:07:38 [311@srvglpi.clinica.local]
+User ID: 311 tried to access or perform an action on /front/ticket.form.php?id=656 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 14:52:45 [171@srvglpi.clinica.local]
+CSRF check failed for User ID: 171 at /front/user.form.php
+2024-11-18 14:52:46 [171@srvglpi.clinica.local]
+User ID: 171 tried to access or perform an action on /front/computer.php?criteria%5B0%5D%5Bfield%5D=view&criteria%5B0%5D%5Blink%5D=contains&criteria%5B0%5D%5Bvalue%5D=&reset=reset with insufficient rights. Additional information: User is missing the 1 (Read) right for computer
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/computer.php:38 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 14:52:48 [171@srvglpi.clinica.local]
+CSRF check failed for User ID: 171 at /front/user.form.php
+2024-11-18 14:52:50 [171@srvglpi.clinica.local]
+User ID: 171 tried to access or perform an action on /front/computer.php?criteria%5B0%5D%5Bfield%5D=view&criteria%5B0%5D%5Blink%5D=contains&criteria%5B0%5D%5Bvalue%5D=&reset=reset with insufficient rights. Additional information: User is missing the 1 (Read) right for computer
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/computer.php:38 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 14:52:51 [171@srvglpi.clinica.local]
+CSRF check failed for User ID: 171 at /front/user.form.php
+2024-11-18 14:52:53 [171@srvglpi.clinica.local]
+User ID: 171 tried to access or perform an action on /front/computer.php?criteria%5B0%5D%5Bfield%5D=view&criteria%5B0%5D%5Blink%5D=contains&criteria%5B0%5D%5Bvalue%5D=&reset=reset with insufficient rights. Additional information: User is missing the 1 (Read) right for computer
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/computer.php:38 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 14:53:10 [311@srvglpi.clinica.local]
+User ID: 311 tried to access or perform an action on /front/ticket.form.php?id=650 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 15:19:10 [44@srvglpi.clinica.local]
+User ID: 44 tried to access or perform an action on /front/ticket.form.php?id=146 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 15:19:55 [44@srvglpi.clinica.local]
+User ID: 44 tried to access or perform an action on /front/ticket.form.php?id=146 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 15:20:30 [44@srvglpi.clinica.local]
+User ID: 44 tried to access or perform an action on /front/ticket.form.php?id=146 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 15:20:36 [44@srvglpi.clinica.local]
+User ID: 44 tried to access or perform an action on /front/ticket.form.php?id=63 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 15:21:18 [44@srvglpi.clinica.local]
+User ID: 44 tried to access or perform an action on /front/ticket.form.php?id=101 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 15:21:21 [44@srvglpi.clinica.local]
+User ID: 44 tried to access or perform an action on /front/ticket.form.php?id=107 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 15:21:25 [44@srvglpi.clinica.local]
+User ID: 44 tried to access or perform an action on /front/ticket.form.php?id=114 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 15:21:28 [44@srvglpi.clinica.local]
+User ID: 44 tried to access or perform an action on /front/ticket.form.php?id=205 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 15:21:31 [44@srvglpi.clinica.local]
+User ID: 44 tried to access or perform an action on /front/ticket.form.php?id=205 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 15:21:34 [44@srvglpi.clinica.local]
+User ID: 44 tried to access or perform an action on /front/ticket.form.php?id=619 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-18 16:04:19 [393@srvglpi.clinica.local]
+User ID: 393 tried to access or perform an action on /front/ticket.form.php?id=79&forcetab=Ticket$1 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-19 07:01:00 [399@srvglpi.clinica.local]
+CSRF check failed for User ID: 399 at /front/user.form.php
+2024-11-19 07:38:03 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-19 07:55:24 [311@srvglpi.clinica.local]
+User ID: 311 tried to access or perform an action on /front/ticket.form.php?id=675 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-19 08:00:04 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/search.php?globalsearch=83 with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/var/www/glpi/src/Session.php:999 displayRightError()
+		/var/www/glpi/front/search.php:41 checkCentralAccess()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-19 10:02:42 [592@srvglpi.clinica.local]
+CSRF check failed for User ID: 592 at /ajax/getDropdownValue.php
+2024-11-19 10:09:20 [245@srvglpi.clinica.local]
+CSRF check failed for User ID: 245 at /front/tracking.injector.php
+2024-11-19 14:45:52 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /ajax/getDropdownValue.php
+2024-11-20 07:31:37 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-20 07:45:21 [49@srvglpi.clinica.local]
+User ID: 49 tried to access or perform an action on /front/user.form.php?id=49 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-20 09:02:02 [154@srvglpi.clinica.local]
+User ID: 154 tried to access or perform an action on /front/user.form.php?id=501 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-20 10:44:43 [310@srvglpi.clinica.local]
+CSRF check failed for User ID: 310 at /ajax/search.php
+2024-11-20 14:21:24 [154@srvglpi.clinica.local]
+User ID: 154 tried to access or perform an action on /front/user.form.php?id=501 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-20 14:23:37 [40@srvglpi.clinica.local]
+User ID: 40 tried to access or perform an action on /front/user.form.php?id=40 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-20 14:23:38 [40@srvglpi.clinica.local]
+User ID: 40 tried to access or perform an action on /front/user.php?is_deleted=0&as_map=0&browse=0&criteria%5B0%5D%5Blink%5D=AND&criteria%5B0%5D%5Bfield%5D=view&criteria%5B0%5D%5Bsearchtype%5D=contains&criteria%5B0%5D%5Bvalue%5D=fernan&itemtype=User&start=0&_glpi_csrf_token=f025ade76842ab7c925d025c4f2937452f165078c800f3c61eb5d00770a37357&sort%5B0%5D=1&order%5B0%5D=ASC with insufficient rights. Additional information: User is missing the 1 (Read) right for user
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/user.php:38 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-20 14:23:41 [40@srvglpi.clinica.local]
+User ID: 40 tried to access or perform an action on /front/user.form.php?id=40 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-20 14:23:42 [40@srvglpi.clinica.local]
+User ID: 40 tried to access or perform an action on /front/user.php?is_deleted=0&as_map=0&browse=0&criteria%5B0%5D%5Blink%5D=AND&criteria%5B0%5D%5Bfield%5D=view&criteria%5B0%5D%5Bsearchtype%5D=contains&criteria%5B0%5D%5Bvalue%5D=fernan&itemtype=User&start=0&_glpi_csrf_token=f025ade76842ab7c925d025c4f2937452f165078c800f3c61eb5d00770a37357&sort%5B0%5D=1&order%5B0%5D=ASC with insufficient rights. Additional information: User is missing the 1 (Read) right for user
+	Stack Trace:
+		/var/www/glpi/src/Session.php:1124 displayRightError()
+		/var/www/glpi/front/user.php:38 checkRight()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-20 14:23:43 [40@srvglpi.clinica.local]
+User ID: 40 tried to access or perform an action on /front/user.form.php?id=40 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-20 14:23:45 [154@srvglpi.clinica.local]
+User ID: 154 tried to access or perform an action on /front/user.form.php?id=40 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-21 09:58:34 [171@srvglpi.clinica.local]
+CSRF check failed for User ID: 171 at /ajax/search.php
+2024-11-21 10:26:30 [311@srvglpi.clinica.local]
+User ID: 311 tried to access or perform an action on /front/ticket.form.php?id=125&forcetab=Ticket$1 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-21 13:03:19 [171@srvglpi.clinica.local]
+CSRF check failed for User ID: 171 at /ajax/search.php
+2024-11-21 14:55:42 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-21 14:55:49 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-22 07:08:04 [2@srvglpi.clinica.local]
+CSRF check failed for User ID: 2 at /ajax/search.php
+2024-11-22 11:22:09 [294@srvglpi.clinica.local]
+CSRF check failed for User ID: 294 at /front/user.form.php
+2024-11-22 14:15:03 [311@srvglpi.clinica.local]
+User ID: 311 tried to access or perform an action on /front/ticket.form.php?id=766 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-22 14:15:05 [311@srvglpi.clinica.local]
+User ID: 311 tried to access or perform an action on /front/ticket.form.php?id=766 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-22 14:26:46 [311@srvglpi.clinica.local]
+User ID: 311 tried to access or perform an action on /front/ticket.form.php?id=797 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-23 07:02:03 [171@srvglpi.clinica.local]
+CSRF check failed for User ID: 171 at /ajax/getDropdownUsers.php
+2024-11-23 07:02:10 [171@srvglpi.clinica.local]
+CSRF check failed for User ID: 171 at /ajax/search.php
+2024-11-25 08:18:09 [37@srvglpi.clinica.local]
+User ID: 37 tried to access or perform an action on /front/ticket.form.php?id=845 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-25 08:19:31 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=845 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-25 08:19:35 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=845 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-25 10:13:07 [311@srvglpi.clinica.local]
+User ID: 311 tried to access or perform an action on /front/ticket.form.php?id=181 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-25 16:06:00 [171@srvglpi.clinica.local]
+CSRF check failed for User ID: 171 at /ajax/search.php
+2024-11-26 07:02:36 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /ajax/getDropdownValue.php
+2024-11-26 10:02:29 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:02:30 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:02:30 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:02:31 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:02:31 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:02:32 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:02:33 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:02:33 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:02:35 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:03:20 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:03:20 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:03:20 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:03:22 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:03:22 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:04:15 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:04:18 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:04:19 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:04:19 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /ajax/getDropdownValue.php
+2024-11-26 10:04:22 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /front/ticket.form.php?id=528
+2024-11-26 12:02:15 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-26 12:02:18 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-26 13:34:28 [171@srvglpi.clinica.local]
+CSRF check failed for User ID: 171 at /ajax/search.php
+2024-11-26 15:08:20 [310@srvglpi.clinica.local]
+CSRF check failed for User ID: 310 at /front/itilfollowup.form.php
+2024-11-26 15:08:38 [310@srvglpi.clinica.local]
+CSRF check failed for User ID: 310 at /front/login.php
+2024-11-26 15:08:42 [310@srvglpi.clinica.local]
+CSRF check failed for User ID: 310 at /front/login.php
+2024-11-26 15:08:50 [310@srvglpi.clinica.local]
+CSRF check failed for User ID: 310 at /front/login.php
+2024-11-26 16:21:34 [311@srvglpi.clinica.local]
+CSRF check failed for User ID: 311 at /front/itilfollowup.form.php
+2024-11-27 07:07:06 [171@srvglpi.clinica.local]
+CSRF check failed for User ID: 171 at /ajax/search.php
+2024-11-28 07:08:58 [171@srvglpi.clinica.local]
+CSRF check failed for User ID: 171 at /ajax/search.php
+2024-11-28 07:19:36 [434@srvglpi.clinica.local]
+User ID: 434 tried to access or perform an action on /front/ticket.form.php?id=154&forcetab=Ticket$1 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-28 11:36:56 [463@srvglpi.clinica.local]
+User ID: 463 tried to access or perform an action on /front/ticketsatisfaction.form.php with insufficient rights. Additional information: User failed a can* method check for right 2 (UPDATE) on item Type: TicketSatisfaction ID: 840
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/ticketsatisfaction.form.php:45 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-28 11:40:18 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/user.form.php?id=448 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-28 13:12:44 [171@srvglpi.clinica.local]
+CSRF check failed for User ID: 171 at /ajax/search.php
+2024-11-28 15:22:54 [310@srvglpi.clinica.local]
+User ID: 310 tried to access or perform an action on /front/user.form.php?id=310 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-28 15:22:59 [310@srvglpi.clinica.local]
+User ID: 310 tried to access or perform an action on /front/user.form.php?id=310 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:254 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-28 16:30:47 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=530 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-29 09:43:01 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=990 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-11-29 11:12:16 [399@srvglpi.clinica.local]
+CSRF check failed for User ID: 399 at /ajax/fileupload.php
+2024-11-29 11:13:12 [399@srvglpi.clinica.local]
+CSRF check failed for User ID: 399 at /front/itilfollowup.form.php
+2024-11-29 12:13:40 [592@srvglpi.clinica.local]
+CSRF check failed for User ID: 592 at /front/itilfollowup.form.php
+2024-11-29 14:35:26 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-11-29 14:35:29 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-12-01 08:05:25 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /ajax/getDropdownValue.php
+2024-12-01 08:05:31 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /ajax/getDropdownValue.php
+2024-12-01 08:05:35 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /ajax/getDropdownValue.php
+2024-12-01 08:05:40 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /ajax/getDropdownValue.php
+2024-12-01 08:06:02 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /ajax/search.php
+2024-12-02 07:02:29 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /ajax/massiveaction.php
+2024-12-02 09:51:00 [37@srvglpi.clinica.local]
+User ID: 37 tried to access or perform an action on /front/ticketsatisfaction.form.php with insufficient rights. Additional information: User failed a can* method check for right 2 (UPDATE) on item Type: TicketSatisfaction ID: 867
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/ticketsatisfaction.form.php:45 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-12-02 12:10:02 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=1082 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-12-02 12:37:46 [311@srvglpi.clinica.local]
+User ID: 311 tried to access or perform an action on /front/ticket.form.php?id=181 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-12-03 06:56:46 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /ajax/getDropdownValue.php
+2024-12-03 06:59:14 [399@srvglpi.clinica.local]
+CSRF check failed for User ID: 399 at /front/itilfollowup.form.php
+2024-12-03 06:59:22 [399@srvglpi.clinica.local]
+CSRF check failed for User ID: 399 at /front/itilfollowup.form.php
+2024-12-03 06:59:38 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /ajax/getDropdownValue.php
+2024-12-03 08:57:55 [@srvglpi.clinica.local]
+CSRF check failed for User ID:  at /front/login.php
+2024-12-03 16:42:28 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /ajax/getDropdownValue.php
+2024-12-03 16:42:34 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /ajax/getDropdownValue.php
+2024-12-03 16:42:54 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /ajax/getDropdownValue.php
+2024-12-03 16:42:59 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /ajax/search.php
+2024-12-04 07:05:34 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /ajax/getDropdownValue.php
+2024-12-04 07:30:38 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /front/itilfollowup.form.php
+2024-12-04 14:54:08 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=1098 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-12-05 06:58:20 [171@srvglpi.clinica.local]
+CSRF check failed for User ID: 171 at /ajax/search.php
+2024-12-05 07:43:54 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=1189 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-12-05 14:08:40 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /ajax/getDropdownValue.php
+2024-12-05 14:08:41 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /ajax/getDropdownValue.php
+2024-12-05 14:08:43 [154@srvglpi.clinica.local]
+CSRF check failed for User ID: 154 at /ajax/getDropdownValue.php
+2024-12-05 15:47:54 [88@srvglpi.clinica.local]
+User ID: 88 tried to access or perform an action on /front/ticketsatisfaction.form.php with insufficient rights. Additional information: User failed a can* method check for right 2 (UPDATE) on item Type: TicketSatisfaction ID: 931
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:3054 displayRightError()
+		/var/www/glpi/front/ticketsatisfaction.form.php:45 check()
+		/var/www/glpi/public/index.php:82 require()
+2024-12-05 16:07:01 [592@srvglpi.clinica.local]
+User ID: 592 tried to access or perform an action on /front/ticket.form.php?id=1229 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+		/var/www/glpi/public/index.php:82 require()
+2024-12-06 06:59:26 [171@srvglpi.clinica.local]
+CSRF check failed for User ID: 171 at /ajax/search.php
+2024-12-06 07:39:31 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /ajax/getDropdownValue.php
+2024-12-06 07:39:33 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /ajax/getDropdownValue.php
+2024-12-06 07:39:35 [40@srvglpi.clinica.local]
+CSRF check failed for User ID: 40 at /ajax/getDropdownValue.php
+2024-12-06 11:03:28 [2@glpipruebas2]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-12-06 11:03:54 [2@glpipruebas2]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-12-06 11:04:11 [2@glpipruebas2]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-12-06 19:38:58 [52@glpipruebas2]
+User ID: 52 tried to access or perform an action on /front/user.form.php?id=52 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:253 displayFullPageForItem()
+2024-12-09 15:48:22 [502@glpipruebas2]
+User ID: 502 tried to access or perform an action on /front/user.form.php?id=502 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:253 displayFullPageForItem()
+2024-12-09 15:48:26 [502@glpipruebas2]
+User ID: 502 tried to access or perform an action on /front/user.form.php?id=2 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:253 displayFullPageForItem()
+2024-12-09 15:48:28 [502@glpipruebas2]
+User ID: 502 tried to access or perform an action on /front/user.form.php?id=2 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:253 displayFullPageForItem()
+2024-12-09 15:48:31 [502@glpipruebas2]
+User ID: 502 tried to access or perform an action on /front/user.form.php?id=2 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:253 displayFullPageForItem()
+2024-12-09 15:50:49 [502@glpipruebas2]
+User ID: 502 tried to access or perform an action on /front/user.form.php?id=2 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:253 displayFullPageForItem()
+2024-12-09 20:25:05 [37@glpipruebas2]
+User ID: 37 tried to access or perform an action on /front/ticket.form.php?id=43 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/ticket.form.php:269 displayFullPageForItem()
+2024-12-09 21:49:49 [502@glpipruebas2]
+User ID: 502 tried to access or perform an action on /front/user.form.php?id=561 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/var/www/glpi/src/CommonDBTM.php:6449 displayRightError()
+		/var/www/glpi/src/CommonDBTM.php:6542 displayAccessDeniedPage()
+		/var/www/glpi/front/user.form.php:253 displayFullPageForItem()
+2024-12-13 12:33:52 [2@glpipruebas2]
+CSRF check failed for User ID: 2 at /front/ticket.form.php?id=1123&_openfollowup=1&status=4
+2024-12-13 12:34:04 [2@glpipruebas2]
+CSRF check failed for User ID: 2 at /front/ticket.form.php?id=1123&_openfollowup=1&status=6
+2024-12-13 12:37:38 [2@glpipruebas2]
+CSRF check failed for User ID: 2 at /front/ticket.form.php?id=1123&_openfollowup=1&status=3

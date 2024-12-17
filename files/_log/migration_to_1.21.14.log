@@ -1,0 +1,44 @@
+2024-10-04 16:51:13 [2@127.0.0.1localhost]
+0 segundos for "Updating glpi_plugin_fields_fields"
+2024-10-04 16:51:13 [2@127.0.0.1localhost]
+0 segundos for "Cambio de la estructura de la base de datos - glpi_plugin_fields_fields"
+2024-10-04 16:51:13 [2@127.0.0.1localhost]
+0 segundos for "Tarea terminada."
+2024-10-04 16:51:13 [2@127.0.0.1localhost]
+0 segundos for "Regenerate containers files"
+2024-10-04 16:51:13 [2@127.0.0.1localhost]
+0 segundos for "Tarea terminada."
+2024-10-04 16:51:13 [2@127.0.0.1localhost]
+0 segundos for "Actualizar los archivos de contenedores generados"
+2024-10-04 16:51:13 [2@127.0.0.1localhost]
+0 segundos for "Tarea terminada."
+2024-10-04 16:51:13 [2@127.0.0.1localhost]
+0 segundos for "Actualización de los archivos 'desplegables' generados"
+2024-10-07 11:13:01 [2@127.0.0.1localhost]
+0 segundos for "Installing glpi_plugin_fields_containers"
+2024-10-07 11:13:01 [2@127.0.0.1localhost]
+0 segundos for "Installing glpi_plugin_fields_containerdisplayconditions"
+2024-10-07 11:13:01 [2@127.0.0.1localhost]
+0 segundos for "Installing glpi_plugin_fields_fields"
+2024-10-07 11:13:01 [2@127.0.0.1localhost]
+0 segundos for "Updating glpi_plugin_fields_fields"
+2024-10-07 11:13:01 [2@127.0.0.1localhost]
+0 segundos for "Installing glpi_plugin_fields_labeltranslations"
+2024-10-07 11:13:01 [2@127.0.0.1localhost]
+0 segundos for "Installing glpi_plugin_fields_profiles"
+2024-10-07 11:13:01 [2@127.0.0.1localhost]
+0 segundos for "Installing glpi_plugin_fields_statusoverrides"
+2024-10-07 11:13:01 [2@127.0.0.1localhost]
+0 segundos for "Cambio de la estructura de la base de datos - glpi_plugin_fields_fields"
+2024-10-07 11:13:01 [2@127.0.0.1localhost]
+0 segundos for "Tarea terminada."
+2024-10-07 11:13:01 [2@127.0.0.1localhost]
+0 segundos for "Regenerate containers files"
+2024-10-07 11:13:01 [2@127.0.0.1localhost]
+0 segundos for "Tarea terminada."
+2024-10-07 11:13:01 [2@127.0.0.1localhost]
+0 segundos for "Actualizar los archivos de contenedores generados"
+2024-10-07 11:13:01 [2@127.0.0.1localhost]
+0 segundos for "Tarea terminada."
+2024-10-07 11:13:01 [2@127.0.0.1localhost]
+0 segundos for "Actualización de los archivos 'desplegables' generados"

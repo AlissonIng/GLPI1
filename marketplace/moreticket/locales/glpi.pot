@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MoreTicket Development Team
+# This file is distributed under the same license as the GLPI - MoreTicket plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI - MoreTicket plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-06 13:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: hook.php:253 hook.php:260 hook.php:267 hook.php:274
+#: inc/closeticket.class.php:78 inc/closeticket.class.php:82
+#: inc/closeticket.class.php:126 inc/closeticket.class.php:186
+#: inc/closeticket.class.php:339 inc/closeticket.class.php:393
+#: inc/config.class.php:181
+msgid "Close ticket informations"
+msgstr ""
+
+#: hook.php:288
+msgid "Updated by a user"
+msgstr ""
+
+#: setup.php:117 inc/profile.class.php:50 inc/profile.class.php:212
+msgid "More ticket"
+msgstr ""
+
+#: front/config.form.php:67
+msgid "Please activate the plugin"
+msgstr ""
+
+#: inc/closeticket.class.php:142 inc/closeticket.class.php:509
+msgid "Solution description"
+msgstr ""
+
+#: inc/closeticket.class.php:161
+msgid "Ticket cannot be closed"
+msgstr ""
+
+#: inc/closeticket.class.php:644
+#, php-format
+msgid "%1$s added closing informations"
+msgstr ""
+
+#: inc/closeticket.class.php:664
+#, php-format
+msgid "%1$s updated closing informations"
+msgstr ""
+
+#: inc/closeticket.class.php:684
+#, php-format
+msgid "%1$s deleted closing informations"
+msgstr ""
+
+#: inc/config.class.php:98 inc/waitingticket.class.php:906
+msgid "Ticket waiting"
+msgstr ""
+
+#: inc/config.class.php:102
+msgid "Use waiting process"
+msgstr ""
+
+#: inc/config.class.php:120
+msgid "Postponement date is mandatory"
+msgstr ""
+
+#: inc/config.class.php:135
+msgid "Waiting reason is mandatory"
+msgstr ""
+
+#: inc/config.class.php:142
+msgid "Add followup when waiting date is reached"
+msgstr ""
+
+#: inc/config.class.php:154
+msgid "Ticket resolution and close"
+msgstr ""
+
+#: inc/config.class.php:156
+msgid "Use solution process"
+msgstr ""
+
+#: inc/config.class.php:174
+msgid "Solution type is mandatory"
+msgstr ""
+
+#: inc/config.class.php:187
+msgid "Status used to display solution block"
+msgstr ""
+
+#: inc/config.class.php:200
+msgid "Add a followup on immediate ticket closing"
+msgstr ""
+
+#: inc/config.class.php:206
+msgid "Use the 'Duration' field in the add solution interface"
+msgstr ""
+
+#: inc/config.class.php:220
+msgid "Mandatory 'Duration' field"
+msgstr ""
+
+#: inc/config.class.php:225
+msgid "Ticket urgency"
+msgstr ""
+
+#: inc/config.class.php:227
+msgid "Use a justification of the urgency field"
+msgstr ""
+
+#: inc/config.class.php:243
+msgid "Urgency impacted justification for the field"
+msgstr ""
+
+#: inc/config.class.php:265
+msgid "Update ticket status"
+msgstr ""
+
+#: inc/config.class.php:268
+msgid "Update ticket status to processing after add document"
+msgstr ""
+
+#: inc/config.class.php:274
+msgid "Update ticket status to processing after approval"
+msgstr ""
+
+#: inc/profile.class.php:175
+msgid "Adding a justification of urgency"
+msgstr ""
+
+#: inc/profile.class.php:183
+msgid "Hide task duration in tickets"
+msgstr ""
+
+#: inc/urgencyticket.class.php:70 inc/urgencyticket.class.php:167
+msgid "Justification"
+msgstr ""
+
+#: inc/urgencyticket.class.php:93
+msgid "Urgency ticket cannot be saved"
+msgstr ""
+
+#: inc/urgencyticket.class.php:95 inc/waitingticket.class.php:169
+msgid "Ticket cannot be saved"
+msgstr ""
+
+#: inc/waitingticket.class.php:65
+msgid "Waiting ticket"
+msgid_plural "Waiting tickets"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/waitingticket.class.php:133 inc/waitingticket.class.php:252
+#: inc/waitingticket.class.php:332 inc/waitingticket.class.php:412
+#: inc/waitingticket.class.php:475
+msgid "Postponement date"
+msgstr ""
+
+#: inc/waitingticket.class.php:137 inc/waitingticket.class.php:236
+#: inc/waitingticket.class.php:317 inc/waitingticket.class.php:397
+#: inc/waitingticket.class.php:473
+msgid "Reason"
+msgstr ""
+
+#: inc/waitingticket.class.php:167
+msgid "Waiting ticket cannot be saved"
+msgstr ""
+
+#: inc/waitingticket.class.php:173
+msgid "Postponement date is inferior of today's date"
+msgstr ""
+
+#: inc/waitingticket.class.php:469 inc/waitingticket.class.php:512
+msgid "Ticket suspension history"
+msgstr ""
+
+#: inc/waitingticket.class.php:472
+msgid "Suspension date"
+msgstr ""
+
+#: inc/waitingticket.class.php:476
+msgid "Suspension end date"
+msgstr ""
+
+#: inc/waitingticket.class.php:818
+msgid "Waiting ticket exceedeed"
+msgstr ""
+
+#: inc/waitingticket.class.php:858
+msgid "End of standby ticket"
+msgstr ""
+
+#: inc/waitingtype.class.php:48
+msgid "Waiting type"
+msgid_plural "Waiting types"
+msgstr[0] ""
+msgstr[1] ""

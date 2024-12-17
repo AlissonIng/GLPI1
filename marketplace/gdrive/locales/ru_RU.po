@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Localazy (https://localazy.com)\n"
+"Project-Id-Version: Gdrive\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=((n%10==1) && (n%100!=11)) ? 0 : ((n%10>=2 && n%10<=4) && ((n%100<12 || n%100>14))) ? 1 : 2;\n"
+
+#: inc/ticket.class.php:289
+msgid "Error loading the file"
+msgstr "Ошибка загрузки файла"
+
+#: inc/config.class.php:161
+msgid "GDrive"
+msgstr "GDrive"
+
+#: inc/config.class.php:82
+msgid "Gdrive setup"
+msgstr "Gdrive настройки"
+
+#: templates/config.html.twig:72
+msgid "See 'Project number' under 'IAM & Admin' > 'Settings'"
+msgstr "Смотрите 'Номер проекта' в разделе 'IAM & Администратор' > 'Настройки'"
+
+#: inc/ticket.class.php:380
+msgid "Select file"
+msgstr "Выбрать файл"
+
+#: templates/config.html.twig:54
+msgid "The Browser API key obtained from the Google API Console"
+msgstr "Ключ API браузера, полученный из Google API"
+
+#: templates/config.html.twig:63
+msgid "The Client ID obtained from the Google API Console"
+msgstr "Идентификатор клиента, полученный из Google API"
+
+#: inc/ticket.class.php:282
+msgid "Uploaded file"
+msgstr "Файл загружен"

@@ -1,0 +1,46 @@
+2024-09-02 15:52:04 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_fields_containers"
+2024-09-02 15:52:04 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_fields_containerdisplayconditions"
+2024-09-02 15:52:04 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_fields_fields"
+2024-09-02 15:52:04 [2@127.0.0.1localhost]
+0 seconds for "Updating glpi_plugin_fields_fields"
+2024-09-02 15:52:04 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_fields_labeltranslations"
+2024-09-02 15:52:04 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_fields_profiles"
+2024-09-02 15:52:04 [2@127.0.0.1localhost]
+0 seconds for "Installing glpi_plugin_fields_statusoverrides"
+2024-09-02 15:52:04 [2@127.0.0.1localhost]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_fields_fields"
+2024-09-02 15:52:04 [2@127.0.0.1localhost]
+0 seconds for "Valores de configuración agregados para stable_search_options (plugin:fields)."
+2024-09-02 15:52:04 [2@127.0.0.1localhost]
+0 seconds for "Tarea finalizada."
+2024-09-02 15:52:04 [2@127.0.0.1localhost]
+0 seconds for "Regenerate containers files"
+2024-09-02 15:52:04 [2@127.0.0.1localhost]
+0 seconds for "Tarea finalizada."
+2024-09-02 15:52:04 [2@127.0.0.1localhost]
+0 seconds for "Updating generated containers files"
+2024-09-02 15:52:04 [2@127.0.0.1localhost]
+0 seconds for "Tarea finalizada."
+2024-09-02 15:52:04 [2@127.0.0.1localhost]
+0 seconds for "Updating generated dropdown files"
+2024-09-05 19:45:42 [2@127.0.0.1localhost]
+0 seconds for "Updating glpi_plugin_fields_fields"
+2024-09-05 19:45:42 [2@127.0.0.1localhost]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_fields_fields"
+2024-09-05 19:45:42 [2@127.0.0.1localhost]
+0 seconds for "Tarea finalizada."
+2024-09-05 19:45:42 [2@127.0.0.1localhost]
+0 seconds for "Regenerate containers files"
+2024-09-05 19:45:42 [2@127.0.0.1localhost]
+0 seconds for "Tarea finalizada."
+2024-09-05 19:45:42 [2@127.0.0.1localhost]
+0 seconds for "Updating generated containers files"
+2024-09-05 19:45:42 [2@127.0.0.1localhost]
+0 seconds for "Tarea finalizada."
+2024-09-05 19:45:42 [2@127.0.0.1localhost]
+0 seconds for "Updating generated dropdown files"

@@ -1,0 +1,10 @@
+[2024-09-23 16:03:15] glpiphplog.CRITICAL:   *** Uncaught Exception Symfony\Component\Console\Exception\RuntimeException: Cannot write in "/var/www/glpi/files/_sessions" directory. in /var/www/glpi/src/Console/Application.php at line 384
+  Backtrace :
+  src/Console/Application.php:116                    Glpi\Console\Application->initSession()
+  bin/console:121                                    Glpi\Console\Application->__construct()
+  
+[2024-09-23 16:04:01] glpiphplog.CRITICAL:   *** Uncaught Exception Symfony\Component\Console\Exception\RuntimeException: Cannot write in "/var/www/glpi/files/_sessions" directory. in /var/www/glpi/src/Console/Application.php at line 384
+  Backtrace :
+  src/Console/Application.php:116                    Glpi\Console\Application->initSession()
+  bin/console:121                                    Glpi\Console\Application->__construct()
+  

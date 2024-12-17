@@ -1,0 +1,29 @@
+/* Ocultar desplegables específicos */
+.service_level_dropdown {
+    display: none;
+}
+
+.linked_cases_dropdown {
+    display: none;
+}
+
+.actors_dropdown {
+    display: none;
+}
+
+.case_dropdown {
+    display: none;
+}
+
+.satisfaction-survey {
+    cursor: pointer;
+}
+
+.satisfaction-option {
+    font-size: 2em; /* Tamaño de las caritas */
+    filter: grayscale(100%); /* Blanco y negro por defecto */
+    transition: filter 0.3s; /* Transición suave al cambiar el filtro */
+}
+
+.satisfaction-option.selected {
+    filter: grayscale(0%); /* Color para la carita seleccionada */

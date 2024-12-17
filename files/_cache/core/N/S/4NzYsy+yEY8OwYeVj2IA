@@ -1,0 +1,446 @@
+1734182000
+19052b70b464c32b7d921b943e6e2e3a57c4d66c
+s:22684:"<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>TechCrunch</title>
+	<atom:link href="https://techcrunch.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://techcrunch.com/</link>
+	<description>Startup and Technology News</description>
+	<lastBuildDate>Fri, 13 Dec 2024 10:11:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.2</generator>
+
+<image>
+	<url>https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32</url>
+	<title>TechCrunch</title>
+	<link>https://techcrunch.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>WhatsApp lets you select specific people within a group to start a group call without disturbing anyone</title>
+		<link>https://techcrunch.com/2024/12/13/whatsapp-lets-you-select-specific-people-within-a-group-to-start-a-group-call-without-disturbing-anyone/</link>
+		
+		<dc:creator><![CDATA[Ivan Mehta]]></dc:creator>
+		<pubDate>Fri, 13 Dec 2024 10:11:41 +0000</pubDate>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[video calls]]></category>
+		<category><![CDATA[WhatsApp]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2930921</guid>
+
+					<description><![CDATA[<p>WhatsApp announced that it had added new video calling features just before the holidays, including participant selection for group video calls, better resolution, and a revamped call tab on the desktop. This is another step from Meta in making WhatsApp a viable option for both personal and work calls instead of using Google Meet or [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New Syndicate One fund joins Belgium&#8217;s small-but-punchy tech ecosystem</title>
+		<link>https://techcrunch.com/2024/12/13/new-syndicate-one-fund-joins-belgiums-small-but-punchy-tech-ecosystem/</link>
+		
+		<dc:creator><![CDATA[Mike Butcher]]></dc:creator>
+		<pubDate>Fri, 13 Dec 2024 09:00:00 +0000</pubDate>
+				<category><![CDATA[Venture]]></category>
+		<category><![CDATA[VC]]></category>
+		<category><![CDATA[venture]]></category>
+		<category><![CDATA[belgium]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2930593</guid>
+
+					<description><![CDATA[<p>Syndicate One is a debut investment firm out of Belgium that has raised a €6.5 million fund to back Belgian founders and startups. While the amount is small, the significance is that it is the first Belgian fund to have the support of all four of the federal regions of the country. This, in a [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>As AI-fueled disinformation explodes, here comes the startup counterattack</title>
+		<link>https://techcrunch.com/2024/12/13/as-ai-fueled-disinformation-explodes-here-comes-the-startup-counterattack/</link>
+		
+		<dc:creator><![CDATA[Mike Butcher]]></dc:creator>
+		<pubDate>Fri, 13 Dec 2024 08:01:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[disinformation]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2930633</guid>
+
+					<description><![CDATA[<p>With disinformation on the rise, especially given the explosion of AI, companies are just as vulnerable to its effects as individuals. Refute is a London-based startup that detects and responds to disinformation on behalf of these commercial entities. It’s now raised a £2.3 million ($2.9 million) pre-seed round led by UK investors Playfair and Episode 1. [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Texas AG is investigating Character.AI, other platforms over child safety concerns</title>
+		<link>https://techcrunch.com/2024/12/12/texas-ag-is-investigating-character-ai-other-platforms-over-child-safety-concerns/</link>
+		
+		<dc:creator><![CDATA[Maxwell Zeff]]></dc:creator>
+		<pubDate>Fri, 13 Dec 2024 07:46:57 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Government & Policy]]></category>
+		<category><![CDATA[Social]]></category>
+		<category><![CDATA[AI chatbots]]></category>
+		<category><![CDATA[character.ai]]></category>
+		<category><![CDATA[discord]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[Safety]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2930886</guid>
+
+					<description><![CDATA[<p>Texas Attorney General Ken Paxton on Thursday launched an investigation into Character.AI and 14 other technology platforms over child privacy and safety concerns. The investigation will assess whether Character.AI — and other platforms that are popular with young people, including Reddit, Instagram and Discord — conform to Texas&#8217; child privacy and safety laws. The investigation [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Microsoft launches Phi-4, a new generative AI model, in research preview</title>
+		<link>https://techcrunch.com/2024/12/12/microsoft-debuts-phi-4-a-new-generative-ai-model-in-research-preview/</link>
+		
+		<dc:creator><![CDATA[Kyle Wiggers, Maxwell Zeff]]></dc:creator>
+		<pubDate>Fri, 13 Dec 2024 01:00:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[phi-4]]></category>
+		<category><![CDATA[research]]></category>
+		<category><![CDATA[small language models]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2930807</guid>
+
+					<description><![CDATA[<p>Microsoft has revealed the newest addition to its Phi family of generative AI models. Called Phi-4, the model improves in several areas over its predecessors, Microsoft claims, particularly in solving math problems. That&#8217;s partly the result of better training data quality. Phi-4 is available in very limited access as of Thursday night only on Microsoft&#8217;s [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Meta debuts a tool for watermarking AI-generated videos</title>
+		<link>https://techcrunch.com/2024/12/12/meta-releases-a-tool-for-watermarking-ai-generated-videos/</link>
+		
+		<dc:creator><![CDATA[Kyle Wiggers]]></dc:creator>
+		<pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Media & Entertainment]]></category>
+		<category><![CDATA[deepfakes]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[meta video seal]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[watermarking]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2930018</guid>
+
+					<description><![CDATA[<p>Meta is open sourcing a method to watermark AI-generated videos. Called Meta Video Seal, the company says it's robust against compression and edits.</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google Gemini: Everything you need to know about the generative AI models</title>
+		<link>https://techcrunch.com/2024/12/12/what-is-google-gemini-ai/</link>
+		
+		<dc:creator><![CDATA[Kyle Wiggers, Maxwell Zeff]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2024 22:59:55 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[evergreens]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[Gemini Pro]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[google gemini]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2643858</guid>
+
+					<description><![CDATA[<p>Gemini is Google’s long-promised, next-gen generative AI model family.</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>A Waymo robotaxi got stuck in a roundabout loop</title>
+		<link>https://techcrunch.com/2024/12/12/a-waymo-robotaxi-got-stuck-in-a-roundabout-loop/</link>
+		
+		<dc:creator><![CDATA[Rebecca Bellan]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2024 22:34:08 +0000</pubDate>
+				<category><![CDATA[Transportation]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[robotaxi]]></category>
+		<category><![CDATA[Waymo]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2930699</guid>
+
+					<description><![CDATA[<p>Roundabouts. They trapped Clark Griswold in &#8220;National Lampoon&#8217;s European Vacation&#8221; and now they&#8217;ve tripped up a Waymo robotaxi. A video is circulating on social media showing a Waymo robotaxi going round and round on a roundabout — as if it is stuck in a loop. A Waymo spokesperson told TechCrunch there were no passengers onboard [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Fleet Space raises $100M to scale satellite-enabled mineral prospecting tech</title>
+		<link>https://techcrunch.com/2024/12/12/fleet-space-raises-100m-to-scale-satellite-enabled-mineral-prospecting-tech/</link>
+		
+		<dc:creator><![CDATA[Aria Alamalhodaei]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2024 22:19:26 +0000</pubDate>
+				<category><![CDATA[Space]]></category>
+		<category><![CDATA[Fleet Space Technologies]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2930708</guid>
+
+					<description><![CDATA[<p>Late-stage deals in space have been on the decline this year, but one notable exception is Fleet Space Technologies’ $100 million Series D.  The Adelaide, Australia-based startup raised the new funding to accelerate the development of ExoSphere, a platform to enable real-time mineral prospecting from space. The company currently has two satellites in low Earth [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Carta is making it too difficult to cancel subscriptions, some founders say</title>
+		<link>https://techcrunch.com/2024/12/12/carta-is-making-it-too-difficult-to-cancel-subscriptions-some-founders-say/</link>
+		
+		<dc:creator><![CDATA[Charles Rollet]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2024 21:57:23 +0000</pubDate>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[cap table management]]></category>
+		<category><![CDATA[Carta]]></category>
+		<category><![CDATA[funding round]]></category>
+		<category><![CDATA[venture funding]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2930667</guid>
+
+					<description><![CDATA[<p>Cap table management firm Carta is under fire from some founders who say cancelling their subscriptions is too hard. </p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Tesla&#8217;s loss is Zoox&#8217;s gain</title>
+		<link>https://techcrunch.com/2024/12/12/teslas-loss-is-zooxs-gain/</link>
+		
+		<dc:creator><![CDATA[Kirsten Korosec]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2024 21:27:11 +0000</pubDate>
+				<category><![CDATA[Transportation]]></category>
+		<category><![CDATA[autonomous vehicles]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[Tesla]]></category>
+		<category><![CDATA[zoox]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2930677</guid>
+
+					<description><![CDATA[<p>Zoox co-founder and CTO Jesse Levinson told the crowd at TechCrunch Disrupt 2024 that he didn&#8217;t think Tesla would launch a robotaxi ride-hailing service in California (or anywhere else) next year, despite&#160;what Elon Musk had claimed. The “fundamental issue is they don’t have technology that works,&#8221; he said at the time. But it seems that [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Nearly half of US teens are online almost constantly, Pew study finds</title>
+		<link>https://techcrunch.com/2024/12/12/nearly-half-of-us-teens-are-online-almost-constantly-pew-study-finds/</link>
+		
+		<dc:creator><![CDATA[Aisha Malik]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2024 21:26:31 +0000</pubDate>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Social]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[Instagram]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[social media]]></category>
+		<category><![CDATA[TikTok]]></category>
+		<category><![CDATA[YouTube]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2930636</guid>
+
+					<description><![CDATA[<p>Nearly half of teens in the U.S. are online almost constantly, and the platform they’re using the most is YouTube, a new study from the Pew Research Center has found. The Center reports that 46% of teens say they&#8217;re online &#8220;almost constantly,&#8221; and 90% of teens it surveyed said they use the Google-owned video platform, [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>ChatGPT: Everything you need to know about the AI-powered chatbot</title>
+		<link>https://techcrunch.com/2024/12/12/chatgpt-everything-to-know-about-the-ai-chatbot/</link>
+		
+		<dc:creator><![CDATA[Kyle Wiggers, Cody Corrall, Alyssa Stringer]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2024 21:15:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[evergreens]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2607630</guid>
+
+					<description><![CDATA[<p>ChatGPT, OpenAI’s text-generating AI chatbot, has taken the world by storm since its launch in November 2022. What started as a tool to supercharge productivity through writing essays and code with short text prompts has evolved into a behemoth with 300 million weekly active users. 2024 has been a big year for OpenAI, from its [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>A comprehensive list of 2024 tech layoffs</title>
+		<link>https://techcrunch.com/2024/12/12/tech-layoffs-2024-list/</link>
+		
+		<dc:creator><![CDATA[Cody Corrall, Alyssa Stringer]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2024 21:00:00 +0000</pubDate>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Venture]]></category>
+		<category><![CDATA[evergreens]]></category>
+		<category><![CDATA[Layoffs]]></category>
+		<category><![CDATA[tech layoffs]]></category>
+		<category><![CDATA[TechCrunch 2023 Recap]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2607662</guid>
+
+					<description><![CDATA[<p>A complete list of all the known layoffs in tech, from Big Tech to startups, broken down by month throughout 2024.</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Yahoo cybersecurity team sees layoffs, outsourcing of &#8216;red team,&#8217; under new CTO</title>
+		<link>https://techcrunch.com/2024/12/12/yahoo-cybersecurity-team-sees-layoffs-outsourcing-of-red-team-under-new-cto/</link>
+		
+		<dc:creator><![CDATA[Zack Whittaker, Lorenzo Franceschi-Bicchierai]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2024 20:45:51 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[Exclusive]]></category>
+		<category><![CDATA[Layoffs]]></category>
+		<category><![CDATA[Paranoids]]></category>
+		<category><![CDATA[Yahoo]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2930653</guid>
+
+					<description><![CDATA[<p>Yahoo laid off around 25% of its cybersecurity team, known as The Paranoids, over the last year.</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>ServiceTitan&#8217;s IPO is a big winner that could inspire fintechs</title>
+		<link>https://techcrunch.com/2024/12/12/servicetitans-ipo-is-a-big-winner-that-could-inspire-fintechs/</link>
+		
+		<dc:creator><![CDATA[Julie Bort]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2024 20:41:17 +0000</pubDate>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[IPOs]]></category>
+		<category><![CDATA[servicetitan]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2930587</guid>
+
+					<description><![CDATA[<p>ServiceTitan, which offers financial and customer management software for the trades, went public in a big way on Thursday, much to the delight of retail investors. The stock quickly popped from its opening IPO sales price of $71 to $105 a share in modest trading volume. It is currently maintaining an above-$100 price. ServiceTitan&#8217;s success [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Threads rolls out its own version of Bluesky&#8217;s &#8216;Starter Packs&#8217;</title>
+		<link>https://techcrunch.com/2024/12/12/threads-rolls-out-its-own-version-of-blueskys-starter-packs/</link>
+		
+		<dc:creator><![CDATA[Aisha Malik]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2024 19:30:57 +0000</pubDate>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Social]]></category>
+		<category><![CDATA[Bluesky]]></category>
+		<category><![CDATA[starter pack]]></category>
+		<category><![CDATA[Threads]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2930575</guid>
+
+					<description><![CDATA[<p>Meta&#8217;s Threads is rolling out its own take on Bluesky’s &#8220;Starter Packs,&#8221; which are curated lists of suggested accounts that help new users find people to follow. Instagram head Adam Mosseri announced on Thursday that the social network is testing a way for users to find and easily follow collections of profiles that post about [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>You can make ChatGPT sound like Santa Claus for the holidays</title>
+		<link>https://techcrunch.com/2024/12/12/you-can-make-chatgpt-sound-like-santa-claus-for-the-holidays/</link>
+		
+		<dc:creator><![CDATA[Maxwell Zeff]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2024 18:40:01 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[advanced voice mode]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2930523</guid>
+
+					<description><![CDATA[<p>OpenAI is making ChatGPT sound like Santa for the holidays. The startup announced on Thursday that ChatGPT users could access a new &#8220;Santa Mode&#8221; voice for the month of December. The feature allows users to speak with ChatGPT&#8217;s existing real-time voice feature, Advanced Voice Mode, but with a Christmas twist. The voice sounds, well, &#8220;merry [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>RIP, Cruise robotaxi</title>
+		<link>https://techcrunch.com/2024/12/12/rip-cruise-robotaxi/</link>
+		
+		<dc:creator><![CDATA[Kirsten Korosec]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2024 18:35:00 +0000</pubDate>
+				<category><![CDATA[Transportation]]></category>
+		<category><![CDATA[Cruise]]></category>
+		<category><![CDATA[robotaxis]]></category>
+		<category><![CDATA[techcrunch mobility]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2930433</guid>
+
+					<description><![CDATA[<p>Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation. Sign up here for free — just click TechCrunch Mobility! GM’s decision to no longer fund its self-driving car subsidiary Cruise was a surprise to many — and got me thinking about this startup that I&#8217;ve come [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Tumblr launches its interest-focused Communities out of beta</title>
+		<link>https://techcrunch.com/2024/12/12/tumblr-launches-its-interest-focused-communities-out-of-beta/</link>
+		
+		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2024 18:32:20 +0000</pubDate>
+				<category><![CDATA[Social]]></category>
+		<category><![CDATA[communities]]></category>
+		<category><![CDATA[tumblr]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2930485</guid>
+
+					<description><![CDATA[<p>A year after initial tests began, the web blogging site Tumblr, now owned by WordPress.com parent Automattic, is launching its Communities feature out of beta. Communities offer semi-private spaces on Tumblr where people can network around topics of interest, similar to Reddit&#8217;s forums known as subreddits or X&#8217;s Communities. The Communities feature first entered public [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>
+";
