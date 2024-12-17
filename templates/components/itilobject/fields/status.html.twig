@@ -37,30 +37,14 @@
 {% set linkable_statuses = item.getStatusLink() %}
 
 {% if canupdate %}
-   {% set status_field %}
-<div class="dropdown">
-    <button class="btn dropdown w-100 custom-button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        <span class="status-text">
-            <i {{ item.getStatusIcon(item.fields['status'])|raw }}</i>
-            {{ all_statuses[item.fields['status']]|default('') }}
-        </span>
-        <span class="select2-selection__arrow" role="presentation">
-            <b role="presentation"></b>
-        </span>
-    </button>
-    <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton">
-        {% for key, label in all_statuses %}
-            {% set link = linkable_statuses[key].link|default(null) %}
-            <li>
-                <a class="dropdown-item {% if key == item.fields['status'] %}active{% endif %}" 
-                   href="{{ link ? link ~ '&status=' ~ key : '#' }}"
-                   {% if link %}onclick="window.location.href='{{ link ~ '&status=' ~ key }}'; return false;"{% endif %}>
-                    {{ item.getStatusIcon(key)|raw }} {{ label }}
-                </a>
-            </li>
-        {% endfor %}
-    </ul>
-</div>
+ {% set status_field %}
+      {{ item.dropdownStatus({
+         'value': item.input['status']|default(item.fields['status']),
+         'value_calculation': item.fields['status'],
+         'showtype': 'allowed',
+         'width': '100%',
+         'display': false
+      }|merge(field_options))|raw }}
 
 <style>
 
@@ -69,15 +53,15 @@ padding: 0px 20px 0px 80x;
 
 }
 
-/* Alineación del texto en el span */
+/* AlineaciÃ³n del texto en el span */
 .status-text {
     display: inline-block;
     text-align: left; /* Alinea el span a la izquierda */
 }
 
-/* Estilo personalizado para el botón de estado */
+/* Estilo personalizado para el botÃ³n de estado */
 .custom-button {
-    color: #444444; /* Color del texto en el botón (puedes elegir cualquier color que prefieras) */
+    color: #444444; /* Color del texto en el botÃ³n (puedes elegir cualquier color que prefieras) */
     font-weight: normal; /* Quitar la negrita */
 text-align: left;
 justify-content: flex-start; /* Asegura que el contenido se alinee al principio */
@@ -85,17 +69,17 @@ line-height: calc(1.4285714286em + 0.875rem + 2px);
 padding: 0px 10px;
 border-color: #d9dbde;
 }
-/* Estilo para pegar el menú al botón */
+/* Estilo para pegar el menÃº al botÃ³n */
 .dropdown-menu {
-    margin-top: -1px; /* Quita el espacio vertical entre el botón y el menú */
+    margin-top: -1px; /* Quita el espacio vertical entre el botÃ³n y el menÃº */
     border-radius: 0; /* Opcional: Quitar el redondeo si lo deseas */
-    padding: 0; /* Opcional: Reducir el espacio interno del menú */
+    padding: 0; /* Opcional: Reducir el espacio interno del menÃº */
 }
 
-/* Asegurar que el dropdown esté alineado con el botón */
+/* Asegurar que el dropdown estÃ© alineado con el botÃ³n */
 .custom-button + .dropdown-menu {
-    top: 100%; /* Asegura que el menú se alinee justo debajo del botón */
-    left: 0; /* Alinea el menú al borde izquierdo del botón */
+    top: 100%; /* Asegura que el menÃº se alinee justo debajo del botÃ³n */
+    left: 0; /* Alinea el menÃº al borde izquierdo del botÃ³n */
 }
 
 /* Asegurarse de que la flecha se muestre al lado derecho */
@@ -114,7 +98,7 @@ border-color: #888 transparent transparent transparent;
 button[aria-expanded="true"] .select2-selection__arrow {
     transform: rotate(180deg); /* Invierte la flecha hacia arriba */
 }
-/* Asegurarse de que el botón no cambie de color al pasar el mouse */
+/* Asegurarse de que el botÃ³n no cambie de color al pasar el mouse */
 .custom-button:hover {
     color: #444444; /* Mantener el color del texto sin cambios al pasar el mouse */
 border-color: #d9dbde;
